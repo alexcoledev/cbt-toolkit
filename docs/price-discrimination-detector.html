@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大数据杀熟检测器 — Big Data Price Discrimination Detector</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;background:#f5f5f5;color:#333;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:20px}
+h1{font-size:1.5em;margin-bottom:5px;color:#d32f2f}
+.subtitle{color:#666;font-size:0.9em;margin-bottom:20px}
+.card{background:#fff;border-radius:8px;padding:20px;margin-bottom:15px;box-shadow:0 1px 3px rgba(0,0,0,0.1)}
+label{display:block;font-size:0.85em;color:#555;margin-bottom:4px;font-weight:600}
+input,select,textarea{width:100%;padding:8px 12px;border:1px solid #ddd;border-radius:4px;font-size:0.9em;margin-bottom:10px}
+button{padding:10px 20px;border:none;border-radius:4px;cursor:pointer;font-size:0.9em;font-weight:600}
+.btn-primary{background:#d32f2f;color:#fff}
+.btn-primary:hover{background:#b71c1c}
+.btn-secondary{background:#e0e0e0;color:#333;margin-left:8px}
+.btn-danger{background:#f44336;color:#fff;margin-left:8px}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>div{flex:1;min-width:120px}
+table{width:100%;border-collapse:collapse;font-size:0.85em}
+th,td{padding:8px;text-align:left;border-bottom:1px solid #eee}
+th{background:#f9f9f9;font-weight:600;color:#555}
+.alert{padding:10px 15px;border-radius:4px;margin:10px 0;font-size:0.9em}
+.alert-warn{background:#fff3cd;border:1px solid #ffeaa7;color:#856404}
+.alert-danger{background:#f8d7da;border:1px solid #f5c6cb;color:#721c24}
+.alert-info{background:#d1ecf1;border:1px solid #bee5eb;color:#0c5460}
+.stat{display:inline-block;padding:8px 16px;background:#e3f2fd;border-radius:4px;margin:5px;font-size:0.85em}
+.stat strong{color:#1976d2;font-size:1.2em}
+.discrepancy{color:#d32f2f;font-weight:600}
+.match{color:#388e3c}
+.legal{font-size:0.8em;color:#666;background:#f9f9f9;padding:10px;border-radius:4px;margin-top:10px;line-height:1.5}
+.legal strong{color:#d32f2f}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🔍 大数据杀熟检测器</h1>
+<p class="subtitle">Big Data Price Discrimination Detector · 记录、比对、维权 · 零注册、零后端、数据本地存储</p>
+
+<div class="card">
+<h3>📋 记录价格</h3>
+<div class="row">
+<div><label>商品/服务名称</label><input id="productName" placeholder="如：北京某酒店 / 某航班 / 某外卖"></div>
+<div><label>平台</label><select id="platform"><option>携程</option><option>美团</option><option>饿了么</option><option>淘宝</option><option>京东</option><option>滴滴</option><option>其他</option></select></div>
+</div>
+<div class="row">
+<div><label>价格 (¥)</label><input id="price" type="number" step="0.01" placeholder="0.00"></div>
+<div><label>账号类型</label><select id="accountType"><option value="new">新用户</option><option value="existing">老用户</option><option value="vip">VIP/会员</option></select></div>
+<div><label>设备</label><select id="device"><option>iPhone</option><option>Android</option><option>iPad</option><option>PC/Mac</option></select></div>
+<div><label>时间</label><input id="timestamp" type="datetime-local"></input></div>
+</div>
+<label>备注 (截图链接、订单号等)</label>
+<input id="notes" placeholder="如：订单号 XXX / 截图存于相册">
+<button class="btn-primary" onclick="addEntry()">+ 记录</button>
+<button class="btn-secondary" onclick="clearForm()">清空</button>
+</div>
+
+<div class="card">
+<h3>📊 价格比对</h3>
+<div id="comparison"></div>
+</div>
+
+<div class="card">
+<h3>📈 统计</h3>
+<div id="stats"></div>
+</div>
+
+<div class="card">
+<h3>📋 记录列表</h3>
+<table id="entriesTable"><thead><tr><th>商品</th><th>平台</th><th>价格</th><th>账号</th><th>设备</th><th>时间</th><th>操作</th></tr></thead><tbody></tbody></table>
+<div style="margin-top:10px">
+<button class="btn-secondary" onclick="exportData()">导出 JSON</button>
+<button class="btn-secondary" onclick="exportCSV()">导出 CSV</button>
+<button class="btn-secondary" onclick="generateComplaint()">生成投诉报告</button>
+<button class="btn-danger" onclick="clearAll()">清空全部</button>
+</div>
+</div>
+
+<div class="card" id="complaintCard" style="display:none">
+<h3>⚖️ 投诉报告</h3>
+<div id="complaintReport"></div>
+<div class="legal">
+<strong>法律依据：</strong><br>
+《消费者权益保护法》第十条：消费者享有公平交易的权利。<br>
+《个人信息保护法》第二十四条：自动化决策不得对个人在交易价格等交易条件上实行不合理的差别待遇。<br>
+《反垄断法》：禁止滥用市场支配地位。<br><br>
+<strong>投诉渠道：</strong>12315（全国消费者投诉热线）· 全国12315平台 · 平台客服
+</div>
+</div>
+</div>
+
+<script>
+const DB_KEY='price_discrimination_entries';
+function load(){try{return JSON.parse(localStorage.getItem(DB_KEY))||[]}catch(e){return[]}}
+function save(d){localStorage.setItem(DB_KEY,JSON.stringify(d))}
+function now(){return new Date().toISOString().slice(0,16)}
+
+document.getElementById('timestamp').value=now();
+
+function addEntry(){
+const e={id:Date.now(),productName:productName.value.trim(),platform:platform.value,price:parseFloat(price.value),accountType:accountType.value,device:device.value,timestamp:timestamp.value,notes:notes.value.trim()};
+if(!e.productName||!e.price||e.price<=0){alert('请填写商品名称和有效价格');return}
+const d=load();d.push(e);save(d);clearForm();render();
+}
+
+function clearForm(){productName.value='';price.value='';notes.value='';timestamp.value=now()}
+
+function deleteEntry(id){const d=load().filter(e=>e.id!==id);save(d);render()}
+
+function clearAll(){if(confirm('确定清空所有记录？此操作不可撤销。')){localStorage.removeItem(DB_KEY);render()}}
+
+function render(){const d=load();renderTable(d);renderComparison(d);renderStats(d)}
+
+function renderTable(d){
+const tb=document.querySelector('#entriesTable tbody');tb.innerHTML='';
+d.slice().reverse().forEach(e=>{
+const tr=document.createElement('tr');
+tr.innerHTML=`<td>${esc(e.productName)}</td><td>${esc(e.platform)}</td><td>¥${e.price.toFixed(2)}</td><td>${accountLabel(e.accountType)}</td><td>${esc(e.device)}</td><td>${e.timestamp.slice(0,10)}</td><td><button class="btn-danger" onclick="deleteEntry(${e.id})" style="padding:4px 8px">删</button></td>`;
+tb.appendChild(tr)})
+}
+
+function accountLabel(t){return{new:'新用户',existing:'老用户',vip:'VIP'}[t]||t}
+
+function renderComparison(d){
+const el=document.getElementById('comparison');
+const groups={};
+d.forEach(e=>{const k=e.productName+'|'+e.platform;if(!groups[k])groups[k]=[];groups[k].push(e)});
+let html='';
+let foundDiscrepancy=false;
+Object.entries(groups).forEach(([k,entries])=>{
+if(entries.length<2)return;
+const prices=entries.map(e=>e.price);const min=Math.min(...prices);const max=Math.max(...prices);
+const pct=((max-min)/min*100);
+const [name,plat]=k.split('|');
+if(pct>0.1){
+foundDiscrepancy=true;
+const cls=pct>5?'alert-danger':'alert-warn';
+const label=pct>5?'⚠️ 显著差异':'💡 轻微差异';
+html+=`<div class="alert ${cls}">${label} · ${esc(name)} (${esc(plat)}): ¥${min.toFixed(2)} ~ ¥${max.toFixed(2)} · 差异 ${pct.toFixed(1)}%<br><small>${entries.map(e=>`${accountLabel(e.accountType)}/${e.device}=¥${e.price.toFixed(2)}`).join(' · ')}</small></div>`;
+}
+});
+if(!html)html='<div class="alert alert-info">需要至少 2 条同一商品/平台的记录才能比对。继续记录不同账号/设备的价格。</div>';
+if(foundDiscrepancy)html+='<div class="alert alert-danger"><strong>检测到价格差异。</strong>建议截图保留证据，可生成投诉报告。</div>';
+el.innerHTML=html;
+}
+
+function renderStats(d){
+const el=document.getElementById('stats');
+if(!d.length){el.innerHTML='<div class="alert alert-info">暂无记录</div>';return}
+const platforms={};d.forEach(e=>{platforms[e.platform]=(platforms[e.platform]||0)+1});
+const accounts={new:0,existing:0,vip:0};d.forEach(e=>{accounts[e.accountType]++});
+let html=`<div class="stat">总记录 <strong>${d.length}</strong></div>`;
+html+=`<div class="stat">涉及平台 <strong>${Object.keys(platforms).length}</strong></div>`;
+html+=`<div class="stat">新用户记录 <strong>${accounts.new}</strong></div>`;
+html+=`<div class="stat">老用户记录 <strong>${accounts.existing}</strong></div>`;
+html+=`<div class="stat">VIP记录 <strong>${accounts.vip}</strong></div>`;
+el.innerHTML=html;
+}
+
+function exportData(){const d=load();download('price_discrimination.json',JSON.stringify(d,null,2))}
+function exportCSV(){const d=load();const csv='商品,平台,价格,账号类型,设备,时间,备注\n'+d.map(e=>`"${e.productName}","${e.platform}",${e.price},"${accountLabel(e.accountType)}","${e.device}","${e.timestamp}","${e.notes}"`).join('\n');download('price_discrimination.csv',csv)}
+
+function download(name,content){const blob=new Blob([content],{type:'text/plain'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click()}
+
+function generateComplaint(){
+const d=load();if(!d.length){alert('请先添加记录');return}
+const groups={};d.forEach(e=>{const k=e.productName+'|'+e.platform;if(!groups[k])groups[k]=[];groups[k].push(e)});
+let report='<div class="alert alert-info"><strong>投诉报告生成于 '+now()+'</strong></div>';
+let hasCase=false;
+Object.entries(groups).forEach(([k,entries])=>{
+if(entries.length<2)return;
+const prices=entries.map(e=>e.price);const min=Math.min(...prices);const max=Math.max(...prices);const pct=((max-min)/min*100);
+if(pct<=0.1)return;
+hasCase=true;
+const [name,plat]=k.split('|');
+report+=`<div class="alert alert-warn"><strong>投诉事项：${esc(name)} — ${esc(plat)} 价格歧视</strong><br>`;
+report+=`发现时间：${entries[0].timestamp}<br>`;
+report+=`价格差异：¥${min.toFixed(2)}（最低）至 ¥${max.toFixed(2)}（最高），差异 ${pct.toFixed(1)}%<br>`;
+report+=`详细记录：<br>`;
+entries.forEach(e=>{report+=`&nbsp;&nbsp;· ${accountLabel(e.accountType)}/${e.device}: ¥${e.price.toFixed(2)} (${e.timestamp})<br>`});
+report+=`<br>诉求：要求 ${esc(plat)} 说明价格差异原因，退还差价，停止价格歧视行为。</div>`;
+});
+if(!hasCase){report+='<div class="alert alert-info">当前记录未发现显著价格差异。继续记录以收集更多证据。</div>'}
+else{report+='<div class="alert alert-info">建议：1) 截图保存本报告 2) 联系平台客服投诉 3) 拨打 12315 或登录全国12315平台 4) 如涉及个人信息保护，可向网信办举报</div>'}
+document.getElementById('complaintReport').innerHTML=report;
+document.getElementById('complaintCard').style.display='block';
+}
+
+function esc(s){return String(s).replace(/[<>&"]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]))}
+
+render();
+</script>
+</body>
+</html>
