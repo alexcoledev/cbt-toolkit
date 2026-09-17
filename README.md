@@ -1,10 +1,10 @@
-# CBT Toolkit 鈥?23 Free Interactive Mental Health Tools
+# CBT Toolkit 鈥?36 Free Interactive Mental Health Tools
 
 
 
 > **Social proof**: Cloned by **135 developers** across 373 clones (GitHub Traffic API, 14-day window). Real engagement — people are using these tools.
 <!-- Star CTA -->
-<h3 align="center">⭐ If this helped you, please <a href="https://github.com/473185670/cbt-toolkit">star the repo</a> — it helps others find it. ⭐</h3>
+<h3 align="center">⭐ If this helped you, please <a href="https://github.com/alexcoledev/cbt-toolkit">star the repo</a> — it helps others find it. ⭐</h3>
 
 ---
 
@@ -15,14 +15,14 @@
 
 > ⭐ **Found this helpful? Please give it a star!** It helps others discover these free mental health tools.
 
-A collection of 23 free interactive CBT (Cognitive Behavioral Therapy) tools and guides. Each tool runs entirely in the browser 鈥?your data stays in `localStorage`, never leaves your device, and works offline.
+A collection of 36 free interactive CBT (Cognitive Behavioral Therapy) tools and guides. Each tool runs entirely in the browser 鈥?your data stays in `localStorage`, never leaves your device, and works offline.
 
-**Live demo**: [https://473185670.github.io/cbt-toolkit/](https://473185670.github.io/cbt-toolkit/)
+**Live demo**: [https://alexcoledev.github.io/cbt-toolkit/](https://alexcoledev.github.io/cbt-toolkit/)
 
 ![Cognitive Distortion Checker in action](demo/distortion-checker-demo.svg)
 
 
-**Toolkit hub**: [https://473185670.github.io/cbt-toolkit/seo/cbt-toolkit-hub.html](https://473185670.github.io/cbt-toolkit/seo/cbt-toolkit-hub.html)
+**Toolkit hub**: [https://alexcoledev.github.io/cbt-toolkit/seo/cbt-toolkit-hub.html](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-toolkit-hub.html)
 
 
 ## 🎯 When to Use This Toolkit
@@ -123,11 +123,11 @@ Cognitive Behavioral Therapy is the most evidence-based form of psychotherapy, w
 ## How to Use
 
 ### Option 1: Use the live site (easiest)
-Visit [the toolkit hub](https://473185670.github.io/cbt-toolkit/seo/cbt-toolkit-hub.html) and pick a tool.
+Visit [the toolkit hub](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-toolkit-hub.html) and pick a tool.
 
 ### Option 2: Run locally
 ```bash
-git clone https://github.com/473185670/cbt-toolkit.git
+git clone https://github.com/alexcoledev/cbt-toolkit.git
 cd cbt-toolkit
 # Open any HTML file in seo/ directory in your browser
 # Or serve locally:
@@ -182,14 +182,14 @@ I write about CBT techniques for developer-specific pain points on Dev.to:
 
 ## 💬 Discussions
 
-Have a question about using these tools? Want to share what worked for you? [Start or join a discussion](https://github.com/473185670/cbt-toolkit/discussions) — no GitHub account friction, just ask.
+Have a question about using these tools? Want to share what worked for you? [Start or join a discussion](https://github.com/alexcoledev/cbt-toolkit/discussions) — no GitHub account friction, just ask.
 
 **Active conversations:**
-- [#5 Best tool in the toolkit for panic attacks?](https://github.com/473185670/cbt-toolkit/discussions/5)
-- [#3 How do I use the thought record for imposter syndrome?](https://github.com/473185670/cbt-toolkit/discussions/3)
-- [#1 What cognitive distortions show up most often in your work?](https://github.com/473185670/cbt-toolkit/discussions/1)
-- [#2 How do you stay consistent with daily thought records?](https://github.com/473185670/cbt-toolkit/discussions/2)
-- [#4 Difference between the distortion checker and the full thought record?](https://github.com/473185670/cbt-toolkit/discussions/4)
+- [#5 Best tool in the toolkit for panic attacks?](https://github.com/alexcoledev/cbt-toolkit/discussions/5)
+- [#3 How do I use the thought record for imposter syndrome?](https://github.com/alexcoledev/cbt-toolkit/discussions/3)
+- [#1 What cognitive distortions show up most often in your work?](https://github.com/alexcoledev/cbt-toolkit/discussions/1)
+- [#2 How do you stay consistent with daily thought records?](https://github.com/alexcoledev/cbt-toolkit/discussions/2)
+- [#4 Difference between the distortion checker and the full thought record?](https://github.com/alexcoledev/cbt-toolkit/discussions/4)
 
 ---
 
@@ -209,7 +209,7 @@ This is a personal project but suggestions are welcome. If you find a bug or hav
 
 ## License
 
-Free for personal use. If you find these tools helpful, consider [starring the repo](https://github.com/473185670/cbt-toolkit) 猸?or sharing with someone who might benefit.
+Free for personal use. If you find these tools helpful, consider [starring the repo](https://github.com/alexcoledev/cbt-toolkit) 猸?or sharing with someone who might benefit.
 
 ---
 
