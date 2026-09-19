@@ -59,6 +59,29 @@ The bot detects cognitive distortions (mind-reading, catastrophizing, all-or-not
 
 ---
 
+
+## 🚀 REST API — CBT Thought Analyzer
+
+The toolkit is also available as a **REST API** on RapidAPI — detect cognitive distortions, core beliefs, and safety behaviors in any text via HTTP.
+
+**RapidAPI**: [cbt-thought-analyzer](https://rapidapi.com/qq1032153999/api/cbt-thought-analyzer)
+
+```python
+import requests
+
+response = requests.get(
+    "https://cbt-thought-analyzer-v1.p.rapidapi.com/analyze",
+    headers={"X-RapidAPI-Key": "YOUR_KEY"},
+    params={"text": "I always mess everything up. I'm such a failure."}
+)
+print(response.json())
+# {"distortions": ["all-or-nothing", "labeling", "overgeneralization"], ...}
+```
+
+No AI, no ML, no NLP library — just CBT psychology encoded as deterministic pattern matching. Same logic as the browser tools, accessible from any backend or script.
+
+---
+
 ## Why CBT?
 
 Cognitive Behavioral Therapy is the most evidence-based form of psychotherapy, with decades of research supporting its effectiveness for anxiety, depression, OCD, panic attacks, PTSD, and more. These tools bring CBT's core techniques 鈥?thought records, cognitive restructuring, behavioral experiments, exposure hierarchies 鈥?into interactive, self-guided formats you can use anytime.
