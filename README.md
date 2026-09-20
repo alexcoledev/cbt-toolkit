@@ -1,4 +1,4 @@
-# CBT Toolkit 鈥?36 Free Interactive Mental Health Tools
+# CBT Toolkit —36 Free Interactive Mental Health Tools
 
 
 
@@ -15,7 +15,7 @@
 
 > ⭐ **Found this helpful? Please give it a star!** It helps others discover these free mental health tools.
 
-A collection of 36 free interactive CBT (Cognitive Behavioral Therapy) tools and guides. Each tool runs entirely in the browser 鈥?your data stays in `localStorage`, never leaves your device, and works offline.
+A collection of 36 free interactive CBT (Cognitive Behavioral Therapy) tools and guides. Each tool runs entirely in the browser —your data stays in `localStorage`, never leaves your device, and works offline.
 
 **Live demo**: [https://alexcoledev.github.io/cbt-toolkit/](https://alexcoledev.github.io/cbt-toolkit/)
 
@@ -84,7 +84,7 @@ No AI, no ML, no NLP library — just CBT psychology encoded as deterministic pa
 
 ## Why CBT?
 
-Cognitive Behavioral Therapy is the most evidence-based form of psychotherapy, with decades of research supporting its effectiveness for anxiety, depression, OCD, panic attacks, PTSD, and more. These tools bring CBT's core techniques 鈥?thought records, cognitive restructuring, behavioral experiments, exposure hierarchies 鈥?into interactive, self-guided formats you can use anytime.
+Cognitive Behavioral Therapy is the most evidence-based form of psychotherapy, with decades of research supporting its effectiveness for anxiety, depression, OCD, panic attacks, PTSD, and more. These tools bring CBT's core techniques —thought records, cognitive restructuring, behavioral experiments, exposure hierarchies —into interactive, self-guided formats you can use anytime.
 
 ## What's Included
 
@@ -93,11 +93,11 @@ Cognitive Behavioral Therapy is the most evidence-based form of psychotherapy, w
 | Tool | What It Does | Link |
 |------|-------------|------|
 | **Thought Record** | 7-step CBT thought record with distortion checker | [Open](seo/free-cbt-thought-record-tool.html) |
-| **Cognitive Distortion Checker** | Paste a thought 鈫?see which of 11 thinking traps apply | [Open](seo/cognitive-distortion-checker.html) |
+| **Cognitive Distortion Checker** | Paste a thought →see which of 11 thinking traps apply | [Open](seo/cognitive-distortion-checker.html) |
 | **Mood Tracker** | Log daily mood, view trends, behavioral activation tips | [Open](seo/cbt-mood-tracker.html) |
 | **Thought Record Template** | Classic 7-column worksheet, print-optimized | [Open](seo/cbt-thought-record-template.html) |
-| **Negative Thought Reframer** | Enter a thought 鈫?get a balanced CBT reframe | [Open](seo/how-to-stop-negative-thoughts.html) |
-| **Context-Dependent Belief Detector** | Same thought 鈫?different core beliefs by life domain | [Open](seo/cbt-context-belief-detector.html) |
+| **Negative Thought Reframer** | Enter a thought →get a balanced CBT reframe | [Open](seo/how-to-stop-negative-thoughts.html) |
+| **Context-Dependent Belief Detector** | Same thought →different core beliefs by life domain | [Open](seo/cbt-context-belief-detector.html) |
 
 ### Condition-Specific Guides + Interactive Tools
 
@@ -135,13 +135,13 @@ Cognitive Behavioral Therapy is the most evidence-based form of psychotherapy, w
 
 ## Features
 
-- **Zero dependencies** 鈥?no npm, no CDN, no framework. Pure HTML/CSS/JS.
-- **Privacy-first** 鈥?all data stored in `localStorage`. Nothing is sent to any server.
-- **Offline-capable** 鈥?works without internet after first load.
-- **Export your data** 鈥?JSON export from every tool.
-- **Print-optimized** 鈥?worksheets print cleanly on A4/Letter.
-- **SEO-optimized** 鈥?each page has structured data (FAQPage, Article, BreadcrumbList schema).
-- **Responsive** 鈥?works on phone, tablet, and desktop.
+- **Zero dependencies** —no npm, no CDN, no framework. Pure HTML/CSS/JS.
+- **Privacy-first** —all data stored in `localStorage`. Nothing is sent to any server.
+- **Offline-capable** —works without internet after first load.
+- **Export your data** —JSON export from every tool.
+- **Print-optimized** —worksheets print cleanly on A4/Letter.
+- **SEO-optimized** —each page has structured data (FAQPage, Article, BreadcrumbList schema).
+- **Responsive** —works on phone, tablet, and desktop.
 
 ## How to Use
 
@@ -159,7 +159,7 @@ python -m http.server 8000
 ```
 
 ### Option 3: Deploy your own
-All files are static HTML. Drop them on any host 鈥?GitHub Pages, Netlify, Vercel, Cloudflare Pages, or even a USB drive.
+All files are static HTML. Drop them on any host —GitHub Pages, Netlify, Vercel, Cloudflare Pages, or even a USB drive.
 
 ---
 
@@ -168,16 +168,16 @@ All files are static HTML. Drop them on any host 鈥?GitHub Pages, Netlify, Verc
 Each tool is a single self-contained HTML file with inline CSS and JavaScript. The core pattern:
 
 ```
-User input 鈫?keyword-pattern matching 鈫?CBT technique 鈫?reframe/guidance 鈫?localStorage save
+User input →keyword-pattern matching →CBT technique →reframe/guidance →localStorage save
 ```
 
 **Why keyword-pattern matching instead of ML/NLP?**
-- **Precision**: deterministic, same input 鈫?same output every time
+- **Precision**: deterministic, same input →same output every time
 - **Zero latency**: no API call, no model load
 - **Zero cost**: no API bills
 - **Zero privacy risk**: thoughts never leave the browser
 - **Explainability**: the full matched chain IS the intervention
-- **Small known output space**: CBT has ~11 distortions, ~13 core beliefs 鈥?no need for a language model
+- **Small known output space**: CBT has ~11 distortions, ~13 core beliefs —no need for a language model
 
 ---
 
@@ -232,7 +232,7 @@ This is a personal project but suggestions are welcome. If you find a bug or hav
 
 ## License
 
-Free for personal use. If you find these tools helpful, consider [starring the repo](https://github.com/alexcoledev/cbt-toolkit) 猸?or sharing with someone who might benefit.
+Free for personal use. If you find these tools helpful, consider [starring the repo](https://github.com/alexcoledev/cbt-toolkit) ⭐or sharing with someone who might benefit.
 
 ---
 
