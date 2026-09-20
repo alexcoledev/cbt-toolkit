@@ -133,6 +133,59 @@ Cognitive Behavioral Therapy is the most evidence-based form of psychotherapy, w
 
 ---
 
+
+## 🔗 Live Demos — Try Every Tool Instantly
+
+> No signup, no install — click any link to use the tool in your browser right now.
+
+
+**Mental Health Tools (24):**
+
+- [Anxiety](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-anxiety.html)
+- [Anxiety (中文)](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-anxiety-zh.html)
+- [Depression](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-depression.html)
+- [Depression (中文)](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-depression-zh.html)
+- [Burnout](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-burnout.html)
+- [Stress](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-stress.html)
+- [Sleep / Insomnia](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-sleep.html)
+- [ADHD](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-adhd.html)
+- [OCD](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-ocd.html)
+- [Panic Attacks](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-panic-attacks.html)
+- [Social Anxiety](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-social-anxiety.html)
+- [Perfectionism](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-perfectionism.html)
+- [Procrastination](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-procrastination.html)
+- [Imposter Syndrome](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-imposter-syndrome.html)
+- [Low Self-Esteem](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-low-self-esteem.html)
+- [Body Image](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-body-image.html)
+- [Anger](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-anger.html)
+- [Shame](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-shame.html)
+- [Grief & Loss](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-grief-loss.html)
+- [Health Anxiety](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-health-anxiety.html)
+- [PTSD / Trauma](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-ptsd-trauma.html)
+- [Intrusive Thoughts](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-intrusive-thoughts.html)
+- [Relationship Anxiety](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-relationship-anxiety.html)
+- [Code Review Anxiety](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-code-review-anxiety.html)
+
+**Developer Mental Health Tools (8):**
+
+- [Debugging Stress](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-debugging-stress.html)
+- [On-Call Anxiety](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-on-call-anxiety.html)
+- [Incident Response Stress](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-incident-response-stress.html)
+- [Thought Record: Tech Lead Stress](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-thought-record-for-tech-lead-stress.html)
+- [Thought Record: Developer Burnout](https://alexcoledev.github.io/cbt-toolkit/seo/thought-record-for-developer-burnout.html)
+- [Thought Record: Imposter Syndrome](https://alexcoledev.github.io/cbt-toolkit/seo/thought-record-for-imposter-syndrome.html)
+- [Thought Record: Pager Anxiety](https://alexcoledev.github.io/cbt-toolkit/seo/thought-record-for-pager-anxiety.html)
+- [Managing Anxiety Before Deployment](https://alexcoledev.github.io/cbt-toolkit/seo/managing-anxiety-before-deployment.html)
+
+**Utilities (4):**
+
+- [Cognitive Distortions in Software Engineering](https://alexcoledev.github.io/cbt-toolkit/seo/cognitive-distortions-software-engineering.html)
+- [Catastrophizing Production Outages](https://alexcoledev.github.io/cbt-toolkit/seo/catastrophizing-production-outages.html)
+- [CBT Mood Tracker](https://alexcoledev.github.io/cbt-toolkit/seo/cbt-mood-tracker.html)
+- [Cognitive Distortion Checker](https://alexcoledev.github.io/cbt-toolkit/seo/cognitive-distortion-checker.html)
+
+**Total: 36 live interactive tools** — all free, all open source.
+
 ## Features
 
 - **Zero dependencies** —no npm, no CDN, no framework. Pure HTML/CSS/JS.
