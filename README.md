@@ -59,6 +59,20 @@ The bot detects cognitive distortions (mind-reading, catastrophizing, all-or-not
 
 ---
 
+## 💎 Premium Upgrades on Gumroad
+
+If these free tools help you, consider these premium upgrades:
+
+| Product | Price | What You Get |
+|---------|-------|-------------|
+| [CBT Thought Record Notion Template](https://4043969836017.gumroad.com/l/yyzll) | $7 | Pre-built Notion template with 7-step CBT thought record, mood tracker, and distortion reference — duplicate and use instantly |
+| [消费者权益保护工具包 Pro 版](https://4043969836017.gumroad.com/l/qwxzm) | $5 | Consumer rights protection toolkit (Pro version) with advanced dispute templates and case tracking |
+| [CBT Developer's 7-Day Quick Start](https://4043969836017.gumroad.com/l/cbt-dev-quickstart) | $3 | 7-day structured program to integrate CBT tools into your daily developer workflow |
+
+> Your purchase supports the development of more free mental health tools. All premium products come with a 30-day money-back guarantee.
+
+
+
 
 ## 🚀 REST API — CBT Thought Analyzer
 
