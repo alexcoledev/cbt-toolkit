@@ -1,5 +1,7 @@
 # CBT Toolkit —36 Free Interactive Mental Health Tools
 
+[![Bundle](https://img.shields.io/badge/📦_Bundle-$4.99-blue?style=for-the-badge)](https://4043969836017.gumroad.com/l/cowjn) [![Live Demo](https://img.shields.io/badge/Live_Demo-36_Tools-green?style=for-the-badge)](https://alexcoledev.github.io/cbt-toolkit/)
+
 
 
 > **Social proof**: Cloned by **157 developers** across 373 clones (GitHub Traffic API, 14-day window). Real engagement — people are using these tools.
@@ -30,7 +32,7 @@ The 36 tools on this repo are free. The bundle adds **3 things you can't get her
 
 Plus an organized index that makes everything 1-click findable.
 
-**👉 [Get the bundle — $4.99](https://4043969836017.gumroad.com/l/cowjn)** (157 people have cloned the free tools — the bundle is for those who want the structured experience) template, a 7-day email course, and a consumer rights protection toolkit — all in one download.
+**👉 [Get the bundle — $4.99](https://4043969836017.gumroad.com/l/cowjn)** — 157 people have cloned the free tools. The bundle is for those who want the structured experience.
 
 ![Cognitive Distortion Checker in action](demo/distortion-checker-demo.svg)
 
