@@ -68,7 +68,7 @@ If these free tools help you, consider these premium upgrades:
 | [CBT Thought Record Notion Template](https://4043969836017.gumroad.com/l/yyzll) | $7 | Pre-built Notion template with 7-step CBT thought record, mood tracker, and distortion reference — duplicate and use instantly |
 | [消费者权益保护工具包 Pro 版](https://4043969836017.gumroad.com/l/qwxzm) | $5 | Consumer rights protection toolkit (Pro version) with advanced dispute templates and case tracking |
 | [CBT Developer's 7-Day Quick Start](https://4043969836017.gumroad.com/l/cbt-dev-quickstart) | $3 | 7-day structured program to integrate CBT tools into your daily developer workflow |
-| [**Complete CBT Toolkit Bundle** ⭐](https://4043969836017.gumroad.com/l/cowjn) | $9.99 | **All 36 tools + all premium upgrades in one bundle — best value** |
+| [**Complete CBT Toolkit Bundle** ⭐](https://4043969836017.gumroad.com/l/cowjn) | $4.99 | **All 36 tools + all premium upgrades in one bundle — best value** |
 | [7-Day CBT Email Course](https://4043969836017.gumroad.com/l/eiaspk) | $9 | Daily CBT lessons + thought record template + progress tracker, delivered over 7 days |
 
 > Your purchase supports the development of more free mental health tools. All premium products come with a 30-day money-back guarantee.
@@ -316,5 +316,5 @@ Free for personal use. If you find these tools helpful, consider [starring the r
 157 cloners. 445 clones. 2 stars. $0 revenue. I'm asking the warmest audience what they'd actually pay for — [join the conversation](https://github.com/alexcoledev/cbt-toolkit/discussions/20).
 
 - **Free tools**: fork, clone, use — forever free
-- **Complete Bundle ($9.99)**: 7-day email course + Notion template + organized index + consumer rights toolkit — [get it here](https://4043969836017.gumroad.com/l/cowjn)
+- **Complete Bundle ($4.99)**: 7-day email course + Notion template + organized index + consumer rights toolkit — [get it here](https://4043969836017.gumroad.com/l/cowjn)
 - **What would you pay for?**: [tell me in Discussion #20](https://github.com/alexcoledev/cbt-toolkit/discussions/20)
