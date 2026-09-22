@@ -20,13 +20,17 @@ A collection of 36 free interactive CBT (Cognitive Behavioral Therapy) tools and
 **Live demo**: [https://alexcoledev.github.io/cbt-toolkit/](https://alexcoledev.github.io/cbt-toolkit/)
 
 
-## 📦 Complete Bundle — $4.99
+## 📦 Complete Bundle — $4.99 (50% off)
 
-Get all 36 tools + Notion template + 7-day email course + consumer rights toolkit in one organized package:
+The 36 tools on this repo are free. The bundle adds **3 things you can't get here**:
 
-**👉 [Get the Complete CBT Toolkit Bundle ($4.99)](https://4043969836017.gumroad.com/l/cowjn)**
+1. **7-Day CBT Email Course** — daily guided lessons with exercises (not in the repo)
+2. **Printable CBT Workbook PDF** — all 36 tools formatted for printing + journaling
+3. **Notion Thought Record Template** — pre-built database with formulas + dashboards
 
-Why bundle? The free tools are 36 separate HTML files. The bundle gives you an organized index, a Notion thought record template, a 7-day email course, and a consumer rights protection toolkit — all in one download.
+Plus an organized index that makes everything 1-click findable.
+
+**👉 [Get the bundle — $4.99](https://4043969836017.gumroad.com/l/cowjn)** (157 people have cloned the free tools — the bundle is for those who want the structured experience) template, a 7-day email course, and a consumer rights protection toolkit — all in one download.
 
 ![Cognitive Distortion Checker in action](demo/distortion-checker-demo.svg)
 
