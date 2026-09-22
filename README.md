@@ -308,3 +308,13 @@ Free for personal use. If you find these tools helpful, consider [starring the r
 **Disclaimer**: These tools are for self-help and education. They are not a substitute for professional mental health care. If you're in crisis, please contact a mental health professional or emergency services.
 - [7 Questions About CBT Thought Records I Wish I Had Asked Before Starting](https://dev.to/473185670/7-questions-about-cbt-thought-records-i-wish-id-asked-before-starting-13o1) — Q&A format (5th format test, s271)
 - [How a CBT Thought Record Got Me Through a Production Outage at 3 AM](https://dev.to/473185670/how-a-cbt-thought-record-got-me-through-a-production-outage-at-3-am-45de) — incident on-call anxiety thought record (case study format)
+
+## 💬 Join the Discussion
+
+**[What would you pay for? → Discussion #20](https://github.com/alexcoledev/cbt-toolkit/discussions/20)**
+
+157 cloners. 445 clones. 2 stars. $0 revenue. I'm asking the warmest audience what they'd actually pay for — [join the conversation](https://github.com/alexcoledev/cbt-toolkit/discussions/20).
+
+- **Free tools**: fork, clone, use — forever free
+- **Complete Bundle ($9.99)**: 7-day email course + Notion template + organized index + consumer rights toolkit — [get it here](https://4043969836017.gumroad.com/l/cowjn)
+- **What would you pay for?**: [tell me in Discussion #20](https://github.com/alexcoledev/cbt-toolkit/discussions/20)
