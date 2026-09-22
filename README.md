@@ -2,7 +2,7 @@
 
 
 
-> **Social proof**: Cloned by **135 developers** across 373 clones (GitHub Traffic API, 14-day window). Real engagement — people are using these tools.
+> **Social proof**: Cloned by **157 developers** across 373 clones (GitHub Traffic API, 14-day window). Real engagement — people are using these tools.
 <!-- Star CTA -->
 <h3 align="center">⭐ If this helped you, please <a href="https://github.com/alexcoledev/cbt-toolkit">star the repo</a> — it helps others find it. ⭐</h3>
 
