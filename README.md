@@ -1,4 +1,6 @@
-# CBT Toolkit —36 Free Interactive Mental Health Tools
+> # CBT Mental Health Toolkit
+
+> **If this toolkit helped you, please ⭐ Star this repo!** It helps others discover these 36 free CBT tools and keeps the project alive.
 
 [![Bundle](https://img.shields.io/badge/📦_Bundle-$4.99-blue?style=for-the-badge)](https://4043969836017.gumroad.com/l/cowjn) [![Live Demo](https://img.shields.io/badge/Live_Demo-36_Tools-green?style=for-the-badge)](https://alexcoledev.github.io/cbt-toolkit/)
 
