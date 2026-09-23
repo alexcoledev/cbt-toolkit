@@ -2,6 +2,9 @@
 
 > **If this toolkit helped you, please ⭐ Star this repo!** It helps others discover these 36 free CBT tools and keeps the project alive.
 
+> **💬 [What tool should I build next?](https://github.com/alexcoledev/cbt-toolkit/discussions/23)** — 157 of you cloned this. Tell me what you actually need. I will build it.
+
+
 [![Bundle](https://img.shields.io/badge/📦_Bundle-$4.99-blue?style=for-the-badge)](https://4043969836017.gumroad.com/l/cowjn) [![Live Demo](https://img.shields.io/badge/Live_Demo-36_Tools-green?style=for-the-badge)](https://alexcoledev.github.io/cbt-toolkit/)
 
 
