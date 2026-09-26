@@ -28,6 +28,7 @@ A collection of 36 free interactive CBT (Cognitive Behavioral Therapy) tools and
 
 
 ## 🚀 Try the Hosted API (No Setup Required)
+[![CI](https://github.com/alexcoledev/cbt-toolkit/actions/workflows/validate.yml/badge.svg)](https://github.com/alexcoledev/cbt-toolkit/actions/workflows/validate.yml)
 
 Detect cognitive distortions in any text with one HTTP call — no installation needed:
 
