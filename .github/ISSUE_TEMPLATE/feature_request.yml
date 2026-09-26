@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest a new CBT tool or improvement to an existing one
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! This toolkit aims to make CBT (Cognitive Behavioral Therapy) tools accessible to everyone. What would make it more useful for you?
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What mental health situation or CBT gap are you running into?
+      placeholder: "I'm struggling with X, and none of the existing tools address it because..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to see?
+      description: Describe the tool or feature you'd want. Even a rough idea helps.
+      placeholder: "A tool that detects / helps with ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Which category?
+      options:
+        - New CBT-for-X tool (e.g. CBT for insomnia, CBT for anger)
+        - New detector (e.g. a new cognitive distortion type)
+        - Improvement to existing tool
+        - Worksheet / interactive exercise
+        - Integration / API
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: CBT evidence base (optional)
+      description: If you know the CBT technique or research this is based on, share it. This helps keep the toolkit clinically grounded.
+      placeholder: "Based on Beck's cognitive model / Salkovskis 1996 / etc."
+  - type: checkboxes
+    id: self-check
+    attributes:
+      label: Self-check
+      options:
+        - label: I searched existing issues and didn't find a duplicate
+          required: true

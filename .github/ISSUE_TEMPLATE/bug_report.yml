@@ -1,0 +1,59 @@
+name: Bug Report
+description: Report a bug in a CBT detector or worksheet tool
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! This toolkit has 36+ free CBT (Cognitive Behavioral Therapy) tools — your report helps improve them for everyone.
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool has the bug?
+      options:
+        - Cognitive Distortion Detector
+        - Core Belief Detector
+        - Safety Behavior Detector
+        - Catastrophe Prediction Calibration Detector
+        - CBT-for-X HTML tool (specify below)
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the unexpected behavior. Include any error messages you saw.
+      placeholder: "I expected X, but instead Y happened..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do to trigger the bug?
+      placeholder: "1. Open tool ...\n2. Enter thought ...\n3. Click analyze ..."
+    validations:
+      required: true
+  - type: textarea
+    id: thought-input
+    attributes:
+      label: The thought/text you entered (optional)
+      description: If the bug is tool-specific, share the input that triggered it. This helps us reproduce exactly.
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other
+  - type: checkboxes
+    id: self-check
+    attributes:
+      label: Self-check
+      options:
+        - label: I searched existing issues and didn't find a duplicate
+          required: true
