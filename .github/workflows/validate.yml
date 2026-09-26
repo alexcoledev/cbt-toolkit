@@ -1,0 +1,28 @@
+name: Validate Tools
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check HTML files exist
+        run: |
+          count=0
+          echo "Found  HTML files"
+          if [ "" -lt 20 ]; then
+            echo "ERROR: Expected at least 20 HTML files"
+            exit 1
+          fi
+      - name: Check README exists
+        run: test -f README.md
+      - name: Check detectors exist
+        run: |
+          test -f cognitive_distortion_detector.js || exit 1
+          test -f core_belief_detector.js || exit 1
+          echo "All core detectors present"
