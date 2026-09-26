@@ -27,6 +27,19 @@ A collection of 36 free interactive CBT (Cognitive Behavioral Therapy) tools and
 **Live demo**: [https://alexcoledev.github.io/cbt-toolkit/](https://alexcoledev.github.io/cbt-toolkit/)
 
 
+## 🚀 Try the Hosted API (No Setup Required)
+
+Detect cognitive distortions in any text with one HTTP call — no installation needed:
+
+```bash
+curl -X POST https://cbt-thought-analyzer.onrender.com/analyze   -H "Content-Type: application/json"   -d '{"text":"I am a complete failure"}'
+```
+
+Returns detected distortions + a CBT reframe for each. [→ Full API docs](https://github.com/alexcoledev/cbt-thought-analyzer)
+
+---
+
+
 ## 📦 Complete Bundle — $4.99 (50% off)
 
 The 36 tools on this repo are free. The bundle adds **3 things you can't get here**:
