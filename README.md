@@ -15,16 +15,21 @@
 
 ---
 
-## ⬇ One-Click Download (No Git Required)
+## 👥 Two Ways to Use This Toolkit
 
-**[Download ZIP (937 KB)](https://github.com/alexcoledev/cbt-toolkit/releases/download/v1.7.0/cbt-toolkit-v1.7.0.zip)** — all 36 tools + README + JS detectors + SEO pages. Unzip and open `index.html` in your browser. No git, no dependencies, no setup.
+### 🧑‍💼 For Everyone Else (No Code Required)
 
+**[⬇ Download ZIP (937 KB)](https://github.com/alexcoledev/cbt-toolkit/releases/download/v1.7.0/cbt-toolkit-v1.7.0.zip)** — all 36 tools. Unzip → open `index.html` → use. No git, no code, no setup.
 
+**Or use the live demo** → [alexcoledev.github.io/cbt-toolkit](https://alexcoledev.github.io/cbt-toolkit/) — no download needed, works on phone, tablet, and desktop.
 
+> **Know someone who could use these tools but isn't technical?** Share the live demo link or send them the ZIP. That's exactly what it's for.
 
-![Stars](https://img.shields.io/github/stars/473185670/cbt-toolkit?style=social&label=Star) ![Forks](https://img.shields.io/github/forks/473185670/cbt-toolkit?style=social&label=Fork)
+### 👩‍💻 For Developers
 
-> Built with **vanilla JavaScript**. No framework. No backend. No signup. No dependencies. Just open and use.
+`git clone` the repo, or jump to the [Hosted API](#-try-the-hosted-api-no-setup-required) section below. Vanilla JS, no dependencies, runs entirely in the browser — your data stays in `localStorage`.
+
+[![Stars](https://img.shields.io/github/stars/473185670/cbt-toolkit?style=social&label=Star)](https://img.shields.io/github/forks/473185670/cbt-toolkit?style=social&label=Fork)
 
 > ⭐ **Found this helpful? Please give it a star!** It helps others discover these free mental health tools.
 
