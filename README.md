@@ -9,11 +9,17 @@
 
 
 
-> **Social proof**: Cloned by **157 developers** across 373 clones (GitHub Traffic API, 14-day window). Real engagement — people are using these tools.
+> **Social proof**: Cloned by **96 developers** across 214 clones (GitHub Traffic API, 14-day window). Real engagement — people are using these tools.
 <!-- Star CTA -->
 <h3 align="center">⭐ If this helped you, please <a href="https://github.com/alexcoledev/cbt-toolkit">star the repo</a> — it helps others find it. ⭐</h3>
 
 ---
+
+## ⬇ One-Click Download (No Git Required)
+
+**[Download ZIP (937 KB)](https://github.com/alexcoledev/cbt-toolkit/releases/download/v1.7.0/cbt-toolkit-v1.7.0.zip)** — all 36 tools + README + JS detectors + SEO pages. Unzip and open `index.html` in your browser. No git, no dependencies, no setup.
+
+
 
 
 ![Stars](https://img.shields.io/github/stars/473185670/cbt-toolkit?style=social&label=Star) ![Forks](https://img.shields.io/github/forks/473185670/cbt-toolkit?style=social&label=Fork)
