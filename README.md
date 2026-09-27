@@ -53,6 +53,12 @@ Plus an organized index that makes everything 1-click findable.
 
 **👉 [Get the bundle — $4.99](https://4043969836017.gumroad.com/l/cowjn)** — 157 people have cloned the free tools. The bundle is for those who want the structured experience.
 
+## ☕ Support This Project — $1
+
+If any of these 36 tools helped you or someone you know, [buy me a coffee for $1](https://4043969836017.gumroad.com/l/supporter). It keeps the tools free forever, covers API server costs, and funds new tool development.
+
+No obligation — the tools are free and will stay free. But if you want to say thanks, this is the lowest-friction way. 🙏
+
 ![Cognitive Distortion Checker in action](demo/distortion-checker-demo.svg)
 
 
