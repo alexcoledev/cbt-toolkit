@@ -32,6 +32,11 @@ A collection of 36 free interactive CBT (Cognitive Behavioral Therapy) tools and
 
 **Live demo**: [https://alexcoledev.github.io/cbt-toolkit/](https://alexcoledev.github.io/cbt-toolkit/)
 
+### 🖥️ See it in action
+
+![CBT Cognitive Distortion Detector in action — thought → distortion detection → CBT reframe](distortion-checker-demo.svg)
+
+*The Cognitive Distortion Detector analyzing an anxious thought in real time. No signup. No backend. Just open and use.*
 
 ## 🚀 Try the Hosted API (No Setup Required)
 [![CI](https://github.com/alexcoledev/cbt-toolkit/actions/workflows/validate.yml/badge.svg)](https://github.com/alexcoledev/cbt-toolkit/actions/workflows/validate.yml)

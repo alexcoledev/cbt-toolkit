@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f7f0"/>
+      <stop offset="100%" stop-color="#e3f2e3"/>
+    </linearGradient>
+    <linearGradient id="thoughtBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff3cd"/>
+      <stop offset="100%" stop-color="#ffeaa7"/>
+    </linearGradient>
+    <linearGradient id="detectBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde8e8"/>
+      <stop offset="100%" stop-color="#f8d0d0"/>
+    </linearGradient>
+    <linearGradient id="reframeBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4edda"/>
+      <stop offset="100%" stop-color="#c3e6cb"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="bold" fill="#2d5a2d">CBT Cognitive Distortion Detector</text>
+  <text x="400" y="62" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b8e6b">Free · Privacy-first · No signup · Works offline</text>
+
+  <!-- Step 1: Input Thought -->
+  <rect x="100" y="90" width="600" height="100" rx="12" fill="url(#thoughtBg)" stroke="#f39c12" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="115" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#856404">1. Your Thought</text>
+  <text x="120" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#5a4a20" font-style="italic">"I failed this test. I'm so stupid.</text>
+  <text x="120" y="165" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#5a4a20" font-style="italic">I'll never get this right."</text>
+
+  <!-- Arrow 1 -->
+  <path d="M 400 200 L 400 225 M 390 218 L 400 228 L 410 218" stroke="#7a8a7a" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Step 2: Detection -->
+  <rect x="100" y="235" width="600" height="110" rx="12" fill="url(#detectBg)" stroke="#e74c3c" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="260" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#721c1c">2. Distortions Detected</text>
+
+  <!-- Distortion badges -->
+  <rect x="120" y="272" width="200" height="28" rx="14" fill="#e74c3c" opacity="0.9"/>
+  <text x="220" y="291" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="white">All-or-Nothing Thinking</text>
+
+  <rect x="340" y="272" width="110" height="28" rx="14" fill="#e74c3c" opacity="0.9"/>
+  <text x="395" y="291" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Labeling</text>
+
+  <rect x="470" y="272" width="200" height="28" rx="14" fill="#e74c3c" opacity="0.7"/>
+  <text x="570" y="291" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Fortune-Telling</text>
+
+  <text x="120" y="325" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#721c1c">These are automatic thought patterns that distort reality. CBT helps you catch them.</text>
+
+  <!-- Arrow 2 -->
+  <path d="M 400 355 L 400 380 M 390 373 L 400 383 L 410 373" stroke="#7a8a7a" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Step 3: Reframe -->
+  <rect x="100" y="390" width="600" height="110" rx="12" fill="url(#reframeBg)" stroke="#27ae60" stroke-width="2" filter="url(#shadow)"/>
+  <text x="120" y="415" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#155724">3. CBT Reframe</text>
+  <text x="120" y="442" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1b4d1b">"One test doesn't define my ability.</text>
+  <text x="120" y="465" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1b4d1b">I can learn from what went wrong and improve next time."</text>
+  <text x="120" y="488" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#155724" font-style="italic">Evidence-based · Based on Beck's cognitive therapy model</text>
+
+  <!-- Footer -->
+  <rect x="100" y="525" width="600" height="50" rx="8" fill="#2d5a2d" opacity="0.08"/>
+  <text x="400" y="548" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d5a2d">36 Free CBT &amp; Mental Health Tools</text>
+  <text x="400" y="568" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#4a7a4a">github.com/alexcoledev/cbt-toolkit · One-click ZIP download · No code required</text>
+</svg>
