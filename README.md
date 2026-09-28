@@ -29,7 +29,7 @@
 
 `git clone` the repo, or jump to the [Hosted API](#-try-the-hosted-api-no-setup-required) section below. Vanilla JS, no dependencies, runs entirely in the browser — your data stays in `localStorage`.
 
-[![Stars](https://img.shields.io/github/stars/473185670/cbt-toolkit?style=social&label=Star)](https://img.shields.io/github/forks/473185670/cbt-toolkit?style=social&label=Fork)
+[![Stars](https://img.shields.io/github/stars/alexcoledev/cbt-toolkit?style=social&label=Star)](https://img.shields.io/github/forks/alexcoledev/cbt-toolkit?style=social&label=Fork)
 
 > ⭐ **Found this helpful? Please give it a star!** It helps others discover these free mental health tools.
 
