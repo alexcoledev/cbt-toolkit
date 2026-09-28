@@ -46,37 +46,8 @@ h1, h2 { color: #2d7a4d; }
 }
 </script>
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do engineers handle incident response stress?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Effective engineers use CBT techniques during incidents: (1) thought records to catch catastrophizing ('everything is down'), (2) grounding to stay present ('what is the actual scope right now?'), (3) structured communication to reduce uncertainty, and (4) post-incident review to calibrate future predictions. The goal is not to eliminate stress but to prevent it from degrading decision-making."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is incident response anxiety?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The acute stress of managing a live production incident: high stakes, time pressure, and visibility. CBT identifies common distortions during incidents: catastrophizing (assuming total failure), mind-reading ('the VP thinks I'm incompetent'), and personalization ('I caused this'). Recognizing these as distortions — not facts — improves decision-making under pressure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I stay calm during a production incident?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use the CBT STOP technique: Step back, Take a breath, Observe your thoughts, Proceed mindfully. Then use a thought record: what is the actual severity (S1-S4), what is the recovery path, and what are you assuming that might not be true? Structured incident roles (incident commander, scribe) also reduce individual stress by distributing responsibility."
-      }
-    }
-  ]
-}
-</script>
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do engineers handle incident response stress?","acceptedAnswer":{"@type":"Answer","text":"Effective engineers use CBT techniques during incidents: (1) thought records to catch catastrophizing ('everything is down'), (2) grounding to stay present ('what is the actual scope right now?'), (3) structured communication to reduce uncertainty, and (4) post-incident review to calibrate future predictions. The goal is not to eliminate stress but to prevent it from degrading decision-making."}},{"@type":"Question","name":"What is incident response anxiety?","acceptedAnswer":{"@type":"Answer","text":"The acute stress of managing a live production incident: high stakes, time pressure, and visibility. CBT identifies common distortions during incidents: catastrophizing (assuming total failure), mind-reading ('the VP thinks I'm incompetent'), and personalization ('I caused this'). Recognizing these as distortions — not facts — improves decision-making under pressure."}},{"@type":"Question","name":"How do I stay calm during a production incident?","acceptedAnswer":{"@type":"Answer","text":"Use the CBT STOP technique: Step back, Take a breath, Observe your thoughts, Proceed mindfully. Then use a thought record: what is the actual severity (S1-S4), what is the recovery path, and what are you assuming that might not be true? Structured incident roles (incident commander, scribe) also reduce individual stress by distributing responsibility."}},{"@type":"Question","name":"How do I manage stress during on-call incidents?","acceptedAnswer":{"@type":"Answer","text":"Use the 3-bucket method: sort incoming information into 'facts I know,' 'assumptions I am making,' and 'unknowns.' Stress spikes when you confuse assumptions for facts. State each assumption explicitly ('I am assuming the database is the bottleneck because CPU is high') so you can test it rather than act on it blindly."}},{"@type":"Question","name":"What is incident response trauma?","acceptedAnswer":{"@type":"Answer","text":"A pattern where past incidents create anticipatory anxiety: you brace for the next page, replay the last incident, or avoid complex systems. This is a form of conditioning, not weakness. CBT addresses it by examining the thought 'it will happen again and I will not handle it' against your actual incident history."}}]}
+  </script>
 </head>
 <body>
 ```html
