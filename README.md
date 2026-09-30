@@ -5,7 +5,7 @@
 > **👀 [Watch the Cognitive Distortion Detector dissect a real anxious thought → Discussion #25](https://github.com/alexcoledev/cbt-toolkit/discussions/25)** — 226 of you cloned this. Tell me what you actually need. I will build it.
 
 
-[![Bundle](https://img.shields.io/badge/📦_Bundle-$4.99-blue?style=for-the-badge)](https://4043969836017.gumroad.com/l/cowjn) [![Live Demo](https://img.shields.io/badge/Live_Demo-36_Tools-green?style=for-the-badge)](https://alexcoledev.github.io/cbt-toolkit/)
+[![Bundle](https://img.shields.io/badge/📦_Bundle-$4.99-blue?style=for-the-badge)](https://4043969836017.gumroad.com/l/cowjn) [![Supporter](https://img.shields.io/badge/☕_Support-$1-ff69b4?style=for-the-badge)](https://4043969836017.gumroad.com/l/supporter) [![Live Demo](https://img.shields.io/badge/Live_Demo-36_Tools-green?style=for-the-badge)](https://alexcoledev.github.io/cbt-toolkit/)
 
 
 
