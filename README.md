@@ -97,6 +97,18 @@ Real developer moments where CBT tools help:
 
 > These are the same cognitive patterns that kill developer productivity. CBT gives you a structured, evidence-based way to work through them in 5 minutes — no therapy appointment needed.
 
+## 📣 Outcomes — Did a tool help you in a specific moment?
+
+226 of you have cloned this toolkit. If a specific tool helped you in a real situation, **[share one line on Issue #38](https://github.com/alexcoledev/cbt-toolkit/issues/38)** — which tool, what was happening, what changed.
+
+Real outcomes become social proof that helps the next person decide to try it. One sentence is enough.
+
+> _Example: "The Thought Record caught my 'this deploy will break production' catastrophizing before a Friday release — reframed it with evidence, shipped calmly."_
+
+_No outcomes shared yet — be the first._ ✏️
+
+---
+
 ## 💬 Telegram Bot — Interactive CBT Thought Records
 
 **[@trevor_pl_bot](https://t.me/trevor_pl_bot)** on Telegram walks you through a 7-step CBT thought record in chat — no app, no signup, no data stored on any server.
