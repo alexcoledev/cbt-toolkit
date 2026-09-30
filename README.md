@@ -10,6 +10,8 @@
 
 > 🌱 **Early Supporters** — be among the first 10 and get your GitHub username listed here + the exclusive PDF. A small way to say "this helped." [Become a supporter →](https://4043969836017.gumroad.com/l/supporter)
 
+> 📖 **[Why support? The full story →](https://alexcoledev.github.io/cbt-toolkit/docs/support.html)** — what your $1 does, what you get, and honest numbers (226 cloners, 0 sales).
+
 
 
 
