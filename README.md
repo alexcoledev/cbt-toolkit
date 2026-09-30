@@ -8,6 +8,8 @@
 [![Bundle](https://img.shields.io/badge/📦_Bundle-$4.99-blue?style=for-the-badge)](https://4043969836017.gumroad.com/l/cowjn) [![Supporter](https://img.shields.io/badge/☕_Support-$1-ff69b4?style=for-the-badge)](https://4043969836017.gumroad.com/l/supporter) [![Live Demo](https://img.shields.io/badge/Live_Demo-36_Tools-green?style=for-the-badge)](https://alexcoledev.github.io/cbt-toolkit/)
 > ☕ **$1 keeps all 36 tools free** → supporters get an exclusive **CBT Quick Reference PDF** (not in the repo). [Become a supporter →](https://4043969836017.gumroad.com/l/supporter)
 
+> 🌱 **Early Supporters** — be among the first 10 and get your GitHub username listed here + the exclusive PDF. A small way to say "this helped." [Become a supporter →](https://4043969836017.gumroad.com/l/supporter)
+
 
 
 
