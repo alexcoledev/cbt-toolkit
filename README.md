@@ -2,14 +2,14 @@
 
 > **If this toolkit helped you, please ⭐ Star this repo!** It helps others discover these 36 free CBT tools and keeps the project alive.
 
-> **👀 [Watch the Cognitive Distortion Detector dissect a real anxious thought → Discussion #25](https://github.com/alexcoledev/cbt-toolkit/discussions/25)** — 214 of you cloned this. Tell me what you actually need. I will build it.
+> **👀 [Watch the Cognitive Distortion Detector dissect a real anxious thought → Discussion #25](https://github.com/alexcoledev/cbt-toolkit/discussions/25)** — 226 of you cloned this. Tell me what you actually need. I will build it.
 
 
 [![Bundle](https://img.shields.io/badge/📦_Bundle-$4.99-blue?style=for-the-badge)](https://4043969836017.gumroad.com/l/cowjn) [![Live Demo](https://img.shields.io/badge/Live_Demo-36_Tools-green?style=for-the-badge)](https://alexcoledev.github.io/cbt-toolkit/)
 
 
 
-> **Social proof**: Cloned by **96 developers** across 214 clones (GitHub Traffic API, 14-day window). Real engagement — people are using these tools.
+> **Social proof**: Cloned by **226 developers** across 589 clones (GitHub Traffic API, 14-day window). Real engagement — people are using these tools.
 <!-- Star CTA -->
 <h3 align="center">⭐ If this helped you, please <a href="https://github.com/alexcoledev/cbt-toolkit">star the repo</a> — it helps others find it. ⭐</h3>
 
@@ -67,13 +67,13 @@ The 36 tools on this repo are free. The bundle adds **3 things you can't get her
 
 Plus an organized index that makes everything 1-click findable.
 
-**👉 [Get the bundle — $4.99](https://4043969836017.gumroad.com/l/cowjn)** — 157 people have cloned the free tools. The bundle is for those who want the structured experience.
+**👉 [Get the bundle — $4.99](https://4043969836017.gumroad.com/l/cowjn)** — 226 people have cloned the free tools. The bundle is for those who want the structured experience.
 
 ## ☕ Support This Project — $1
 
-If any of these 36 tools helped you or someone you know, [buy me a coffee for $1](https://4043969836017.gumroad.com/l/supporter). It keeps the tools free forever, covers API server costs, and funds new tool development.
+If any of these 36 tools helped you or someone you know, [become a $1 supporter](https://4043969836017.gumroad.com/l/supporter). You'll get an **exclusive CBT Quick Reference Card PDF** (printable 2-page quick reference — 10 distortions, 5-step thought record, 6 CBT techniques, crisis resources — **not available in the free repo**) as a thank you. It keeps the tools free forever, covers API server costs, and funds new tool development.
 
-No obligation — the tools are free and will stay free. But if you want to say thanks, this is the lowest-friction way. 🙏
+No obligation — the tools are free and will stay free. But if you want to say thanks and get the exclusive PDF, this is the lowest-friction way. 🙏
 
 ![Cognitive Distortion Checker in action](demo/distortion-checker-demo.svg)
 
@@ -369,7 +369,7 @@ Free for personal use. If you find these tools helpful, consider [starring the r
 
 **[What would you pay for? → Discussion #20](https://github.com/alexcoledev/cbt-toolkit/discussions/20)**
 
-157 cloners. 445 clones. 2 stars. $0 revenue. I'm asking the warmest audience what they'd actually pay for — [join the conversation](https://github.com/alexcoledev/cbt-toolkit/discussions/20).
+226 cloners. 589 clones. 2 stars. $0 revenue. I'm asking the warmest audience what they'd actually pay for — [join the conversation](https://github.com/alexcoledev/cbt-toolkit/discussions/20).
 
 - **Free tools**: fork, clone, use — forever free
 - **Complete Bundle ($4.99)**: 7-day email course + Notion template + organized index + consumer rights toolkit — [get it here](https://4043969836017.gumroad.com/l/cowjn)
