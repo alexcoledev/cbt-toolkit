@@ -397,19 +397,40 @@
     </footer>
   </div>
 <script>
+/* beacon-v2: view + CTA click telemetry. CTA id is encoded into event_type
+   (e.g. "cta_click:supporter_1usd") so NO new fields/columns are required. */
 (function(){
-  fetch("https://macro-scenario-api.onrender.com/collect", {
-    method: "POST",
-    headers: {"Content-Type": "application/json"},
-    body: JSON.stringify({
-      site: location.hostname,
-      path: location.pathname + location.search,
-      event_type: "view",
-      referrer: document.referrer || null,
-      ua: navigator.userAgent
-    }),
-    keepalive: true
-  }).catch(function(){});
+  var ENDPOINT = "https://macro-scenario-api.onrender.com/collect";
+  function send(kind){
+    try {
+      fetch(ENDPOINT, {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({
+          site: location.hostname,
+          path: location.pathname + location.search,
+          event_type: kind,
+          referrer: document.referrer || null,
+          ua: navigator.userAgent
+        }),
+        keepalive: true
+      }).catch(function(){});
+    } catch (e) {}
+  }
+  send("view");
+  document.addEventListener("click", function(e){
+    var el = e.target;
+    var a = (el && el.closest) ? el.closest("a[href]") : null;
+    if (!a) return;
+    var h = a.getAttribute("href") || "";
+    var id = null;
+    if (h.indexOf("gumroad.com/l/supporter") > -1) id = "supporter_1usd";
+    else if (h.indexOf("gumroad.com/l/yyzll") > -1) id = "notion_7usd";
+    else if (h.indexOf("releases/download") > -1) id = "zip_download";
+    else if (h.indexOf("github.com/alexcoledev/cbt-toolkit") > -1) id = "github_repo";
+    else if (h.indexOf("support.html") > -1) id = "support_page";
+    if (id) send("cta_click:" + id);
+  }, true);
 })();
 </script>
 
