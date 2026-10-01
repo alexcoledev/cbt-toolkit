@@ -33,7 +33,7 @@
 
 ### 👩‍💻 For Developers
 
-`git clone` the repo, or jump to the [Hosted API](#-try-the-hosted-api-no-setup-required) section below. Vanilla JS, no dependencies, runs entirely in the browser — your data stays in `localStorage`.
+`git clone` the repo, [⬇ download the ZIP](https://github.com/alexcoledev/cbt-toolkit/releases/download/v2.5.0/cbt-toolkit-v2.5.0.zip) (one-click, no clone needed), or jump to the [Hosted API](#-try-the-hosted-api-no-setup-required) section below. Vanilla JS, no dependencies, runs entirely in the browser — your data stays in `localStorage`.
 
 [![Stars](https://img.shields.io/github/stars/alexcoledev/cbt-toolkit?style=social&label=Star)](https://img.shields.io/github/forks/alexcoledev/cbt-toolkit?style=social&label=Fork)
 
@@ -300,6 +300,8 @@ cd cbt-toolkit
 python -m http.server 8000
 # Then visit http://localhost:8000/seo/cbt-toolkit-hub.html
 ```
+
+**Prefer no clone?** [⬇ Download the ZIP](https://github.com/alexcoledev/cbt-toolkit/releases/download/v2.5.0/cbt-toolkit-v2.5.0.zip) (996 KB, v2.5.0) — unzip and open any HTML file in your browser.
 
 ### Option 3: Deploy your own
 All files are static HTML. Drop them on any host —GitHub Pages, Netlify, Vercel, Cloudflare Pages, or even a USB drive.
