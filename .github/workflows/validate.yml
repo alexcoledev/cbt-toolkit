@@ -13,9 +13,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check HTML files exist
         run: |
-          count=0
-          echo "Found  HTML files"
-          if [ "" -lt 20 ]; then
+          count=$(find . -name "*.html" -not -path "./.git/*" | wc -l)
+          echo "Found $count HTML files"
+          if [ "$count" -lt 20 ]; then
             echo "ERROR: Expected at least 20 HTML files"
             exit 1
           fi
