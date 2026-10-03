@@ -675,7 +675,14 @@
   <url>
     <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-adhd-burnout-overwhelm.html</loc>
     <lastmod>2026-10-04</lastmod>
-    <changefreq>monthly</changefBreq>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-postpartum-depression.html</loc>
+    <lastmod>2026-10-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
 
