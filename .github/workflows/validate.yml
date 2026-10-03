@@ -21,8 +21,8 @@ jobs:
           fi
       - name: Check README exists
         run: test -f README.md
-      - name: Check detectors exist
+      - name: Check core tool pages exist
         run: |
-          test -f cognitive_distortion_detector.js || exit 1
-          test -f core_belief_detector.js || exit 1
-          echo "All core detectors present"
+          test -f seo/cognitive-distortion-checker.html || exit 1
+          test -f seo/cbt-context-belief-detector.html || exit 1
+          echo "All core tool pages present"
