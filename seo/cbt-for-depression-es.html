@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Core Web Vitals: preconnect to GitHub (star CTA + download links) saves ~100-300ms on first click -->
+<link rel="preconnect" href="https://github.com" crossorigin>
+<link rel="dns-prefetch" href="https://github.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCC para la depresión: técnicas, ejercicios y hojas de trabajo (gratis)</title>
+  <meta name="description" content="Una guía completa sobre el uso de la TCC para la depresión. Activación conductual, registros de pensamiento, registros de datos positivos y experimentos conductuales. Interactivo gratuito">
+  <meta name="keywords" content="cbt para la depresión, ejercicios para la depresión cbt, cómo usar cbt para la depresión, técnicas cbt para la depresión, hojas de trabajo para la depresión, herramientas para la depresión cbt, terapia cognitivo-conductual para la depresión, activación conductual, programación de actividades cbt, alivio de la depresión cbt, tríada negativa cbt, programación de actividades depresión">
+  <meta property="og:title" content="TCC para la depresión: técnicas, ejercicios y hojas de trabajo (gratis)">
+  <meta property="og:description" content="Guía completa de TCC para la depresión con técnicas paso a paso, un programador de actividades interactivo gratuito (activación conductual) y hojas de trabajo. Sin registro.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://raw.githubusercontent.com/alexcoledev/cbt-toolkit/main/pinterest/pin1_cbt_benefits.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CBT for Depression: Techniques, Exercises & Worksheets (Free)">
+  <meta name="twitter:description" content="Complete guide to CBT for depression with step-by-step techniques, a free interactive activity scheduler (behavioral activation), and worksheets. No signup.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/alexcoledev/cbt-toolkit/main/pinterest/pin1_cbt_benefits.png">
+  <link rel="canonical" href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-depression-es.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "CBT for Depression: Techniques, Exercises & Worksheets (Free)",
+    "description": "A complete guide to using CBT for depression with step-by-step techniques, a free interactive activity scheduler, and worksheets.",
+    "author": {"@type": "Organization", "name": "CBT Tools"},
+    "publisher": {"@type": "Organization", "name": "CBT Tools"},
+    "datePublished": "2026-10-08",
+    "url": "https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-depression.html"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Does CBT work for depression?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. CBT is one of the most evidence-based treatments for depression, with hundreds of randomized controlled trials and large effect sizes. It works as well as antidepressants for mild to moderate depression, and the skills persist after treatment ends because you learn them rather than receive them. Behavioral activation alone, a single CBT component, can produce significant improvement in 4 to 8 weeks."}},
+      {"@type": "Question", "name": "What is behavioral activation in CBT?", "acceptedAnswer": {"@type": "Answer", "text": "Behavioral activation is the core CBT technique for depression. Depression causes withdrawal and inactivity, and inactivity deepens depression, creating a downward spiral. Behavioral activation reverses it: you schedule and carry out small activities even when you don't feel like it, then rate the actual pleasure and mastery you felt. The key insight is that depression makes you predict activities will feel worse than they actually do, so doing them anyway breaks the cycle."}},
+      {"@type": "Question", "name": "How long does CBT take to work for depression?", "acceptedAnswer": {"@type": "Answer", "text": "Most people notice meaningful improvement after 8 to 20 sessions, or 4 to 8 weeks of consistent self-practice. Behavioral activation often produces the first mood lift within 1 to 2 weeks. CBT is skills-based, so progress depends on regular practice of the exercises between sessions, not just on understanding the concepts."}},
+      {"@type": "Question", "name": "Can I do CBT for depression on my own without a therapist?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, for mild to moderate depression. Self-guided CBT using structured exercises like behavioral activation and thought records is well-supported by research and can be as effective as therapist-led CBT for many people. For severe depression, suicidal thoughts, or if symptoms interfere with daily functioning, work with a licensed therapist. If you are in crisis, call 988 (US)."}},
+      {"@type": "Question", "name": "What is the negative triad in CBT?", "acceptedAnswer": {"@type": "Answer", "text": "The negative triad is Aaron Beck's description of the depressive thinking pattern: negative views of yourself (I'm worthless), the world (nothing good happens), and the future (it will always be this way). CBT targets each leg of the triad through thought records, evidence examination, and behavioral experiments that test these beliefs against reality."}}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "CBT Exercises", "item": "https://alexcoledev.github.io/cbt-toolkit/seo/cbt-exercises-worksheets.html"},
+      {"@type": "ListItem", "position": 2, "name": "CBT for Depression", "item": "https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-depression.html"}
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f0f7f4; --primary: #4a9d7c; --primary-dark: #3a8268;
+      --accent: #6cbf8a; --accent-light: #d4ebe0; --text: #2d4a3e;
+      --text-muted: #6b8a7e; --card: #ffffff; --border: #c8ddd4;
+      --danger: #c17a7a; --warning: #d4a55a; --radius: 10px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    .hero { background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%); color: white; padding: 2.5rem 1rem; text-align: center; }
+    .hero h1 { font-size: 1.7rem; margin-bottom: 0.5rem; }
+    .hero p { opacity: 0.92; max-width: 600px; margin: 0 auto; font-size: 0.95rem; }
+    .hero .badge { display: inline-block; background: rgba(255,255,255,0.2); padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.8rem; margin-top: 0.75rem; }
+    .container { max-width: 820px; margin: 0 auto; padding: 1.5rem 1rem; }
+    .intro { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin-bottom: 1.5rem; box-shadow: 0 1px 3px rgba(74,157,124,0.06); }
+    .intro h2 { color: var(--primary-dark); font-size: 1.15rem; margin-bottom: 0.5rem; }
+    .intro p { font-size: 0.92rem; margin-bottom: 0.5rem; }
+    .intro p:last-child { margin-bottom: 0; }
+    .technique { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(74,157,124,0.06); transition: border-color 0.2s; }
+    .technique:hover { border-color: var(--accent); }
+    .technique-header { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.6rem; }
+    .technique-num { background: var(--primary); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; font-weight: 700; flex-shrink: 0; }
+    .technique-title { font-weight: 600; font-size: 1.05rem; color: var(--text); }
+    .technique-meta { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
+    .technique-desc { font-size: 0.9rem; margin-bottom: 0.5rem; }
+    .technique-steps { font-size: 0.86rem; padding-left: 1.3rem; margin-bottom: 0.5rem; }
+    .technique-steps li { margin-bottom: 0.2rem; }
+    .technique-link { display: inline-block; background: var(--accent-light); color: var(--primary-dark); padding: 0.3rem 0.7rem; border-radius: 5px; text-decoration: none; font-size: 0.82rem; font-weight: 600; margin-top: 0.3rem; margin-right: 0.3rem; }
+    .technique-link:hover { background: var(--accent); color: white; }
+    .tag { display: inline-block; background: var(--accent-light); color: var(--primary-dark); padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.75rem; margin-right: 0.3rem; }
+    /* Activity scheduler widget */
+    .ba-widget { background: var(--card); border: 2px solid var(--accent); border-radius: var(--radius); padding: 1.5rem; margin: 1.5rem 0; box-shadow: 0 2px 8px rgba(74,157,124,0.12); }
+    .ba-widget h2 { color: var(--primary-dark); font-size: 1.2rem; margin-bottom: 0.4rem; }
+    .ba-widget .ba-desc { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .ba-form { background: var(--accent-light); border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
+    .ba-form label { display: block; font-size: 0.82rem; font-weight: 600; color: var(--primary-dark); margin-bottom: 0.2rem; margin-top: 0.5rem; }
+    .ba-form label:first-child { margin-top: 0; }
+    .ba-form input[type="text"], .ba-form select { width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 0.5rem; font-size: 0.9rem; font-family: inherit; }
+    .ba-form .ba-row { display: flex; gap: 0.75rem; }
+    .ba-form .ba-row > div { flex: 1; }
+    .ba-form .ba-slider { display: flex; align-items: center; gap: 0.5rem; }
+    .ba-form input[type="range"] { flex: 1; accent-color: var(--primary); }
+    .ba-form .ba-val { font-size: 0.85rem; font-weight: 700; color: var(--primary-dark); min-width: 1.5rem; text-align: center; }
+    .ba-btn { background: var(--primary); color: white; border: none; padding: 0.5rem 1.1rem; border-radius: 6px; font-size: 0.9rem; font-weight: 600; cursor: pointer; margin-top: 0.6rem; }
+    .ba-btn:hover { background: var(--primary-dark); }
+    .ba-btn.secondary { background: var(--accent-light); color: var(--primary-dark); }
+    .ba-entry { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 0.85rem; margin-bottom: 0.6rem; font-size: 0.86rem; }
+    .ba-entry .ba-entry-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.4rem; }
+    .ba-entry .ba-act { font-weight: 600; color: var(--text); }
+    .ba-entry .ba-type { font-size: 0.74rem; background: var(--accent-light); color: var(--primary-dark); padding: 0.1rem 0.45rem; border-radius: 4px; }
+    .ba-entry .ba-preds { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+    .ba-entry .ba-actual { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; }
+    .ba-entry .ba-actual label { font-size: 0.76rem; color: var(--text-muted); }
+    .ba-entry .ba-actual input[type="range"] { width: 90px; accent-color: var(--primary); }
+    .ba-entry .ba-gap { font-size: 0.78rem; font-weight: 600; margin-top: 0.35rem; }
+    .ba-entry .ba-del { background: none; border: none; color: var(--danger); cursor: pointer; font-size: 0.78rem; padding: 0; }
+    .ba-empty { text-align: center; color: var(--text-muted); font-size: 0.88rem; padding: 1rem; }
+    .ba-insight { background: #e8f5ee; border-radius: 8px; padding: 0.85rem; margin-top: 0.75rem; font-size: 0.84rem; color: var(--primary-dark); display: none; }
+    .ba-insight.show { display: block; }
+    .upsell { background: linear-gradient(135deg, var(--accent-light) 0%, #e8f5ee 100%); border: 1px solid var(--accent); border-radius: var(--radius); padding: 1.25rem; margin: 1.5rem 0; }
+    .upsell h2 { color: var(--primary-dark); font-size: 1.15rem; margin-bottom: 0.5rem; }
+    .upsell p { font-size: 0.9rem; margin-bottom: 0.75rem; }
+    .upsell .price { display: inline-block; background: var(--primary); color: white; padding: 0.3rem 0.8rem; border-radius: 6px; font-weight: 700; font-size: 0.95rem; margin-right: 0.5rem; }
+    .upsell a { display: inline-block; background: var(--primary-dark); color: white; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+    .upsell a:hover { background: var(--primary); }
+    .cross-link { display: block; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.25rem; margin: 0.75rem 0; text-decoration: none; color: var(--text); transition: border-color 0.2s; }
+    .cross-link:hover { border-color: var(--accent); }
+    .cross-link strong { color: var(--primary-dark); font-size: 1.02rem; }
+    .cross-link span { font-size: 0.86rem; color: var(--text-muted); }
+    .disclaimer { background: #fdf6f0; border: 1px solid #e8d5c4; border-radius: var(--radius); padding: 1rem; margin: 1.5rem 0; font-size: 0.82rem; color: #7a5c4a; }
+    footer { text-align: center; padding: 1.5rem 1rem; color: var(--text-muted); font-size: 0.82rem; }
+    footer a { color: var(--primary); text-decoration: none; }
+  </style>
+</head>
+<body>
+<div style="background:#fff5e7;border-bottom:2px solid #ed8936;padding:0.5rem 1rem;text-align:center;font-size:0.85rem;color:#744210;">&#127760; Versión en Español &middot; <a href="./cbt-for-depression.html" style="color:#2b6cb0;">English version</a></div>
+
+  <div class="hero">
+    <h1>para depresión</h1>
+    <p>Una guía completa de las técnicas de terapia cognitivo-conductual para la depresión, con ejercicios paso a paso, un programador de actividades interactivo gratuito y hojas de trabajo. No es necesario registrarse.</p>
+    <span class="badge">Free &bull; Evidence-based &bull; Self-guided</span>
+  </div>
+
+  <div class="container">
+    <div class="intro">
+      <h2>¿Por qué la TCC para la depresión?</h2>
+      <p>Depression is maintained by a downward spiral: low mood leads to <strong>withdrawal and inactivity</strong>, and inactivity removes the sources of pleasure and achievement &mdash; which deepens the low mood, which drives more withdrawal. CBT breaks this spiral at two levels. Behaviorally, <strong>behavioral activation</strong> restarts activity before motivation returns (action comes first, feeling follows). Cognitively, <strong>thought records</strong> target the negative triad &mdash; the depressive beliefs about yourself, the world, and the future.</p>
+      <p>CBT is the most researched therapy for depression, with hundreds of randomized trials and large effect sizes. It works as well as medication for mild to moderate depression, and the skills persist after treatment because you learn them. The techniques below are the core skills &mdash; you can practice them on your own or with a therapist.</p>
+    </div>
+
+    <!-- Interactive Activity Scheduler (Behavioral Activation) -->
+    <div class="ba-widget" id="baWidget">
+      <h2>Pruébelo ahora: Programador de actividades (activación conductual)</h2>
+      <p class="ba-desc">Depression tells you nothing will feel good, so you stop doing things &mdash; and then nothing does feel good. This tool reverses it. Add a small activity, <strong>predict</strong> how much pleasure and mastery (sense of achievement) you expect (0&ndash;10). After you do it, rate the <strong>actual</strong> pleasure and mastery. The gap between predicted and actual is the key insight: depression makes you underpredict. Seeing the gap is what restarts the upward spiral.</p>
+
+      <div class="ba-form">
+        <label for="baActivity">Activity (something small and doable)</label>
+        <input type="text" id="baActivity" placeholder="e.g., 10-min walk, call a friend, cook one meal, tidy one surface">
+        <label for="baType">Type</label>
+        <select id="baType">
+          <option value="Pleasure">Pleasure (enjoyment)</option>
+          <option value="Mastery">Mastery (achievement)</option>
+          <option value="Both">Both pleasure &amp; mastery</option>
+        </select>
+        <div class="ba-row">
+          <div>
+            <label>Predicted pleasure <span class="ba-val" id="predPVal">5</span></label>
+            <div class="ba-slider"><input type="range" id="predP" min="0" max="10" value="5" oninput="document.getElementById('predPVal').textContent=this.value"></div>
+          </div>
+          <div>
+            <label>Predicted mastery <span class="ba-val" id="predMVal">5</span></label>
+            <div class="ba-slider"><input type="range" id="predM" min="0" max="10" value="5" oninput="document.getElementById('predMVal').textContent=this.value"></div>
+          </div>
+        </div>
+        <button class="ba-btn" onclick="baAdd()">Schedule this activity</button>
+      </div>
+
+      <div id="baList"></div>
+      <div class="ba-empty" id="baEmpty">No activities scheduled yet. Add one above &mdash; start very small.</div>
+      <div class="ba-insight" id="baInsight"></div>
+
+      <div style="margin-top:0.75rem;">
+        <button class="ba-btn secondary" onclick="baExport()">Export data (JSON)</button>
+        <button class="ba-btn secondary" onclick="baClear()">Clear all</button>
+      </div>
+    </div>
+
+    <div class="intro">
+      <h2>Las 6 técnicas básicas de TCC para la depresión</h2>
+      <p>Each technique targets a different part of the depressive spiral. Start with behavioral activation &mdash; it produces the fastest mood lift. Add thought records and the positive data log to retrain thinking. Use behavioral experiments to test depressive beliefs against reality.</p>
+    </div>
+
+    
+  <div class="card" id="condition-overview">
+    <h2>¿Qué es la depresión?</h2>
+    <p>Depression is a mental state of low mood and aversion to activity. It affects about 3.5% of the global population, or about 280 million people worldwide, as of 2020. Depression affects a person's thoughts, behavior, feelings, and sense of well-being. The pleasure or joy that a person gets from certain experiences is reduced, and the afflicted person often experiences a loss of motivation or interest in those activities. People with depression may experience sadness, feelings of dejection or lack of hope, difficulty in thinking and concentration, hypersomnia or insomnia, overeating or anorexia, or suicidal thoughts.</p>
+    <p style="font-size: 0.85rem; color: #718096; margin-top: 1rem;">Learn more: <a href="https://en.wikipedia.org/wiki/Depression_(mood)" target="_blank" rel="noopener noreferrer">Wikipedia</a></p>
+  </div>
+<div class="technique">
+      <div class="technique-header">
+        <div class="technique-num">1</div>
+        <div>
+          <div class="technique-title">Behavioral Activation (Activity Scheduling)</div>
+          <div class="technique-meta"><span class="tag">Core skill</span><span class="tag">Behavioral</span><span class="tag">Fastest lift</span></div>
+        </div>
+      </div>
+      <p class="technique-desc">The single most effective CBT exercise for depression. Depression says "wait until you feel like it" &mdash; behavioral activation says "do it first, the feeling follows." You schedule small activities, predict how rewarding they'll be, do them, then rate the actual reward. The predicted-vs-actual gap reveals that depression underestimates how good activities feel. Try the interactive scheduler above.</p>
+      <ol class="technique-steps">
+        <li>List 5&ndash;10 small activities you used to enjoy or value</li>
+        <li>Schedule one per day (tiny is fine &mdash; 5 minutes counts)</li>
+        <li>Predict pleasure and mastery 0&ndash;10 before doing it</li>
+        <li>Do it, regardless of motivation</li>
+        <li>Rate actual pleasure and mastery &mdash; notice the gap</li>
+      </ol>
+      <a class="technique-link" href="#baWidget">&rarr; Use the interactive scheduler above</a>
+      <a class="technique-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-mood-tracker.html">&rarr; Track mood alongside (Mood Tracker)</a>
+    </div>
+
+    <div class="technique">
+      <div class="technique-header">
+        <div class="technique-num">2</div>
+        <div>
+          <div class="technique-title">Thought Records (Negative Triad)</div>
+          <div class="technique-meta"><span class="tag">Cognitive</span><span class="tag">Core skill</span></div>
+        </div>
+      </div>
+      <p class="technique-desc">Depression is driven by the negative triad: negative views of <strong>yourself</strong> ("I'm worthless"), the <strong>world</strong> ("nothing good happens"), and the <strong>future</strong> ("it'll always be this way"). A thought record captures these automatic thoughts, identifies the distortions (all-or-nothing thinking, mental filter, disqualifying the positive), examines the evidence, and builds a balanced alternative.</p>
+      <ol class="technique-steps">
+        <li>Write the situation that triggered the low mood</li>
+        <li>Rate your mood 0&ndash;100</li>
+        <li>Capture the automatic negative thoughts</li>
+        <li>Identify distortions (all-or-nothing? mental filter? disqualifying positive?)</li>
+        <li>List evidence for and against each thought</li>
+        <li>Write a balanced thought, re-rate mood</li>
+      </ol>
+      <a class="technique-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/free-cbt-thought-record-tool.html">&rarr; Free Interactive Tool</a>
+      <a class="technique-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/how-to-do-cbt-thought-record.html">&rarr; Step-by-step Guide</a>
+    </div>
+
+    <div class="technique">
+      <div class="technique-header">
+        <div class="technique-num">3</div>
+        <div>
+          <div class="technique-title">Cognitive Distortion Identification</div>
+          <div class="technique-meta"><span class="tag">Cognitive</span><span class="tag">Quick check</span></div>
+        </div>
+      </div>
+      <p class="technique-desc">Depressive thoughts follow predictable patterns. The most common in depression: <strong>all-or-nothing thinking</strong> ("if I can't do it perfectly, I'm a failure"), <strong>mental filter</strong> (one negative detail drowns out everything), <strong>disqualifying the positive</strong> ("that doesn't count"), <strong>overgeneralization</strong> (one setback = "I always fail"), and <strong>should statements</strong> ("I should be over this by now"). Spotting the pattern is half the reframe.</p>
+      <ol class="technique-steps">
+        <li>Write down the depressive thought</li>
+        <li>Check it against the 11 common distortions</li>
+        <li>Ask: "Would I judge a friend this harshly?"</li>
+        <li>Reframe using evidence</li>
+      </ol>
+      <a class="technique-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cognitive-distortion-checker.html">&rarr; Free Distortion Checker</a>
+    </div>
+
+    <div class="technique">
+      <div class="technique-header">
+        <div class="technique-num">4</div>
+        <div>
+          <div class="technique-title">Positive Data Log (Gratitude Log)</div>
+          <div class="technique-meta"><span class="tag">Cognitive</span><span class="tag">Counter negative bias</span></div>
+        </div>
+      </div>
+      <p class="technique-desc">Depression installs a negative attention bias &mdash; you notice and remember the bad, and filter out the good. A positive data log forces the opposite: each evening, write three things that went well or that you're grateful for, however small ("the coffee was hot", "I answered one email"). Over 2&ndash;3 weeks this retrains your brain to register positive events, directly countering the mental filter and disqualifying-the-positive distortions.</p>
+      <ol class="technique-steps">
+        <li>Each evening, write 3 positive things from the day</li>
+        <li>Include small things &mdash; "small" is the point</li>
+        <li>Note your role in making each happen</li>
+        <li>Review the log when mood dips</li>
+      </ol>
+    </div>
+
+    <div class="technique">
+      <div class="technique-header">
+        <div class="technique-num">5</div>
+        <div>
+          <div class="technique-title">Behavioral Experiments</div>
+          <div class="technique-meta"><span class="tag">Behavioral</span><span class="tag">Test beliefs</span></div>
+        </div>
+      </div>
+      <p class="technique-desc">Depression holds beliefs like "I can't enjoy anything anymore" or "I'm useless to everyone." Behavioral experiments test these against reality. You predict an outcome, do the activity, and record what actually happened. The gap between the depressive prediction and reality is what updates the belief &mdash; far more powerfully than arguing with the thought.</p>
+      <ol class="technique-steps">
+        <li>Identify the depressive belief ("If I go out, I'll feel worse")</li>
+        <li>Rate belief in the prediction 0&ndash;100</li>
+        <li>Do the activity (start small)</li>
+        <li>Record what actually happened and how you felt</li>
+        <li>Compare prediction vs. reality &mdash; update the belief</li>
+      </ol>
+    </div>
+
+    <div class="technique">
+      <div class="technique-header">
+        <div class="technique-num">6</div>
+        <div>
+          <div class="technique-title">Activity &ndash; Mood Monitoring</div>
+          <div class="technique-meta"><span class="tag">Behavioral</span><span class="tag">Insight</span></div>
+        </div>
+      </div>
+      <p class="technique-desc">The link between what you do and how you feel is invisible during depression &mdash; mood seems to come from nowhere. Tracking activity and mood side by side makes the link visible: you see that mood rises on days with more activity, more social contact, more time outside. This evidence motivates behavioral activation even when motivation is low.</p>
+      <ol class="technique-steps">
+        <li>Log daily activities + mood (use the mood tracker)</li>
+        <li>After 1&ndash;2 weeks, look for patterns</li>
+        <li>Identify which activities lift mood</li>
+        <li>Schedule more of those, deliberately</li>
+      </ol>
+      <a class="technique-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-mood-tracker.html">&rarr; Free Mood Tracker</a>
+    </div>
+
+    <div class="upsell">
+      <h2>¿Quiere una práctica estructurada de TCC?</h2>
+      <p>The <strong>CBT Thought Record Notion Template</strong> gives you a structured daily thought record with built-in distortion reference, emotion tracking, and a history log &mdash; all in your Notion workspace. It's the easiest way to make CBT a daily habit.</p>
+      <span class="price">$7</span>
+      <a href="https://4043969836017.gumroad.com/l/yyzll" target="_blank" rel="noopener">Get the template &rarr;</a>
+    </div>
+
+    <div class="intro">
+      <h2>Herramientas CBT gratuitas relacionadas</h2>
+    </div>
+    <a class="cross-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/free-cbt-thought-record-tool.html"><strong>Free Interactive CBT Thought Record Tool</strong><br><span>7-step thought record with distortion checkboxes, emotion sliders, and save history.</span></a>
+    <a class="cross-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cognitive-distortion-checker.html"><strong>Cognitive Distortion Checker</strong><br><span>Paste a depressive thought &rarr; see which of 11 thinking traps apply, with reframe prompts.</span></a>
+    <a class="cross-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/how-to-do-cbt-thought-record.html"><strong>How to Do a CBT Thought Record (Guide)</strong><br><span>Long-form 7-step guide with a complete worked example and FAQ.</span></a>
+    <a class="cross-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-thought-record-template.html"><strong>Printable CBT Thought Record Template</strong><br><span>Classic 7-column worksheet, print-optimized, fillable online.</span></a>
+    <a class="cross-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-mood-tracker.html"><strong>CBT Mood Tracker (Interactive)</strong><br><span>Log daily mood, spot activity-mood patterns, practice behavioral activation.</span></a>
+    <a class="cross-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-anxiety.html"><strong>CBT for Anxiety (Guide + Grounding Tool)</strong><br><span>The companion guide for anxiety &mdash; grounding, worry time, breathing.</span></a>
+    <a class="cross-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-exercises-worksheets.html"><strong>CBT Exercises &amp; Worksheets Hub</strong><br><span>10 core CBT techniques with step-by-step instructions.</span></a>
+
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong> These exercises are educational self-help tools based on established CBT principles, not a substitute for professional diagnosis or treatment. Depression can be serious and treatable &mdash; please consult a licensed mental health professional if symptoms are severe, persistent, or interfering with daily life. If you are in crisis or having thoughts of suicide, call <strong>988</strong> (US Suicide &amp; Crisis Lifeline) or your local emergency number immediately. You don't have to face this alone.
+    </div>
+
+        <a class="cross-link" href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-toolkit-hub.html"><strong>CBT Toolkit Hub (All 8 Free Tools)</strong><br><span>The front door to the full CBT toolkit — 8 interactive tools in one place.</span></a>
+<footer>
+      <p>Part of the free CBT Tools cluster &mdash; <a href="https://alexcoledev.github.io/cbt-toolkit/seo/cbt-exercises-worksheets.html">all exercises</a> &middot; <a href="https://alexcoledev.github.io/cbt-toolkit/sitemap.xml">sitemap</a></p>
+      <p style="margin-top:0.5rem;">Evidence-based &middot; No signup &middot; Your data stays in your browser</p>
+    </footer>
+  </div>
+
+  <script>
+    // Behavioral Activation Activity Scheduler
+    var baKey = 'cbt_activity_scheduler';
+    var baEntries = [];
+    try { baEntries = JSON.parse(localStorage.getItem(baKey) || '[]'); } catch (e) {}
+
+    function baSave() { try { localStorage.setItem(baKey, JSON.stringify(baEntries)); } catch (e) {} }
+    function baAdd() {
+      var act = document.getElementById('baActivity').value.trim();
+      if (!act) { alert('Enter an activity first.'); return; }
+      var type = document.getElementById('baType').value;
+      var predP = parseInt(document.getElementById('predP').value, 10);
+      var predM = parseInt(document.getElementById('predM').value, 10);
+      baEntries.unshift({
+        id: Date.now(), activity: act, type: type,
+        predP: predP, predM: predM,
+        actP: null, actM: null, done: false, date: new Date().toISOString()
+      });
+      baSave();
+      document.getElementById('baActivity').value = '';
+      baRender();
+    }
+    function baSetActual(id, field, val) {
+      for (var i = 0; i < baEntries.length; i++) {
+        if (baEntries[i].id === id) {
+          baEntries[i][field] = parseInt(val, 10);
+          if (baEntries[i].actP !== null && baEntries[i].actM !== null) baEntries[i].done = true;
+        }
+      }
+      baSave(); baRender();
+    }
+    function baDel(id) {
+      baEntries = baEntries.filter(function (e) { return e.id !== id; });
+      baSave(); baRender();
+    }
+    function baRender() {
+      var list = document.getElementById('baList');
+      var empty = document.getElementById('baEmpty');
+      list.innerHTML = '';
+      if (baEntries.length === 0) { empty.style.display = 'block'; document.getElementById('baInsight').classList.remove('show'); return; }
+      empty.style.display = 'none';
+      for (var i = 0; i < baEntries.length; i++) {
+        var e = baEntries[i];
+        var gapP = (e.actP !== null) ? (e.actP - e.predP) : null;
+        var gapM = (e.actM !== null) ? (e.actM - e.predM) : null;
+        var div = document.createElement('div');
+        div.className = 'ba-entry';
+        var gapHtml = '';
+        if (e.done) {
+          var gapParts = [];
+          if (gapP !== null) gapParts.push('pleasure ' + (gapP >= 0 ? '+' : '') + gapP);
+          if (gapM !== null) gapParts.push('mastery ' + (gapM >= 0 ? '+' : '') + gapM);
+          var gapText = gapParts.join(', ');
+          var positive = (gapP !== null && gapP > 0) || (gapM !== null && gapM > 0);
+          gapHtml = '<div class="ba-gap" style="color:' + (positive ? 'var(--primary-dark)' : 'var(--text-muted)') + ';">Actual vs predicted: ' + gapText + (positive ? ' &mdash; it felt better than you expected.' : '') + '</div>';
+        }
+        div.innerHTML =
+          '<div class="ba-entry-top"><div><span class="ba-act">' + escHtml(e.activity) + '</span> <span class="ba-type">' + e.type + '</span></div><button class="ba-del" onclick="baDel(' + e.id + ')">remove</button></div>' +
+          '<div class="ba-preds">Predicted &mdash; pleasure: ' + e.predP + '/10, mastery: ' + e.predM + '/10</div>' +
+          '<div class="ba-actual">' +
+            '<label>Actual pleasure: <input type="range" min="0" max="10" value="' + (e.actP !== null ? e.actP : e.predP) + '" oninput="baSetActual(' + e.id + ',\'actP\',this.value)"></label>' +
+            '<label>Actual mastery: <input type="range" min="0" max="10" value="' + (e.actM !== null ? e.actM : e.predM) + '" oninput="baSetActual(' + e.id + ',\'actM\',this.value)"></label>' +
+          '</div>' + gapHtml;
+        list.appendChild(div);
+      }
+      // Insight: average gap across completed entries
+      var done = baEntries.filter(function (e) { return e.done; });
+      if (done.length >= 2) {
+        var sumGap = 0, n = 0;
+        for (var j = 0; j < done.length; j++) {
+          if (done[j].actP !== null) { sumGap += (done[j].actP - done[j].predP); n++; }
+          if (done[j].actM !== null) { sumGap += (done[j].actM - done[j].predM); n++; }
+        }
+        var avg = n ? (sumGap / n) : 0;
+        var ins = document.getElementById('baInsight');
+        if (avg > 0.5) {
+          ins.innerHTML = '<strong>Pattern detected:</strong> Across ' + done.length + ' completed activities, actual reward averaged ' + avg.toFixed(1) + ' points higher than you predicted. This is behavioral activation working &mdash; depression systematically underestimates how rewarding activity actually is. Use this evidence to schedule the next one even when motivation is low.';
+          ins.classList.add('show');
+        } else if (avg < -0.5) {
+          ins.innerHTML = '<strong>Note:</strong> Activities are feeling less rewarding than predicted (' + avg.toFixed(1) + '). This can happen early. Try smaller activities, or pair them with social contact. If low mood persists, consider speaking with a therapist.';
+          ins.classList.add('show');
+        }
+      }
+    }
+    function escHtml(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+    function baExport() {
+      var blob = new Blob([JSON.stringify(baEntries, null, 2)], { type: 'application/json' });
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob); a.download = 'cbt-activity-scheduler.json'; a.click();
+    }
+    function baClear() { if (confirm('Clear all activities?')) { baEntries = []; baSave(); baRender(); } }
+    baRender();
+  </script>
+
+<div class="related-tools" style="max-width: 800px; margin: 2rem auto; padding: 1.5rem; background: #f0f7f0; border-radius: 8px; border: 1px solid #d0e0d0;">
+  <h3 style="color: #2d5a2d; margin-bottom: 1rem;">Related Free CBT Tools</h3>
+  <ul style="list-style: none; padding: 0;">
+    <li><a href="./cbt-for-low-self-esteem.html">Low Self Esteem</a></li>
+    <li><a href="./cbt-for-shame.html">Shame</a></li>
+    <li><a href="./cbt-for-grief-loss.html">Grief Loss</a></li>
+  </ul>
+  <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;"><a href="../index.html">← Back to All 36 Tools</a></p>
+</div>
+
+
+<!-- star-cta-v1 -->
+<style>
+.star-cta{position:fixed;bottom:16px;right:16px;background:#1a7f37;color:#fff;padding:10px 18px;border-radius:10px;font-size:14px;font-family:system-ui,-apple-system,sans-serif;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.18);z-index:99998;display:none;align-items:center;gap:8px;transition:opacity .3s,transform .3s;max-width:300px}
+.star-cta:hover{background:#15803d;transform:translateY(-1px)}
+.star-cta .star-emoji{font-size:16px}
+.star-cta .dismiss{margin-left:6px;opacity:.55;cursor:pointer;font-size:13px;padding:2px 4px;border-radius:4px}
+.star-cta .dismiss:hover{opacity:1;background:rgba(255,255,255,.15)}
+</style>
+<a class="star-cta" id="starCta" href="https://github.com/alexcoledev/cbt-toolkit" target="_blank" rel="noopener noreferrer" aria-label="Star this repository on GitHub">
+  <span class="star-emoji">⭐</span> Found this useful? Star on GitHub
+  <span class="dismiss" role="button" aria-label="Dismiss" onclick="event.preventDefault();localStorage.setItem('starCtaDismissed','1');document.getElementById('starCta').style.display='none'">✕</span>
+</a>
+<script>
+(function(){
+  if(localStorage.getItem('starCtaDismissed'))return;
+  setTimeout(function(){
+    var e=document.getElementById('starCta');
+    if(e)e.style.display='flex';
+  },5000);
+})();
+</script>
+
+</body>
+</html>
