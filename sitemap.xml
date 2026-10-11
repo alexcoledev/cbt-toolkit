@@ -4746,5 +4746,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-peccatophobia.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-scriptophobia.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
 
