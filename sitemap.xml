@@ -4553,5 +4553,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-<url><loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-decidophobia.html</loc><lastmod>2026-10-11</lastmod></url></urlset>
+<url><loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-decidophobia.html</loc><lastmod>2026-10-11</lastmod></url>
+  <url>
+    <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-jealousy.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-money-anxiety.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
 
