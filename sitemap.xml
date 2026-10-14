@@ -5424,4 +5424,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-mnemophobia.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-medical_anxiety.html</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
