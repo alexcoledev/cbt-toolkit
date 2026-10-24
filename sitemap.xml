@@ -10114,9 +10114,15 @@
        <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-fear-of-criticism.html</loc>
-      <lastmod>2026-10-24</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-</urlset>
+       <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-fear-of-criticism.html</loc>
+       <lastmod>2026-10-24</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
+    <url>
+       <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-fear-of-disappointment.html</loc>
+       <lastmod>2026-10-24</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
+ </urlset>
