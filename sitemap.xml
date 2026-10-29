@@ -83394,4 +83394,10 @@
        <changefreq>monthly</changefreq>
        <priority>0.8</priority>
     </url>
+    <url>
+       <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-fear-of-being-a-shroud.html</loc>
+       <lastmod>2026-10-30</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
 </urlset>
