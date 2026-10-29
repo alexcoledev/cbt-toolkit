@@ -83371,9 +83371,15 @@
             <priority>0.8</priority>
          </url>
    <url>
-      <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-fear-of-being-a-bud.html</loc>
-      <lastmod>2026-10-29</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
+       <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-fear-of-being-a-bud.html</loc>
+       <lastmod>2026-10-29</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
+    <url>
+       <loc>https://alexcoledev.github.io/cbt-toolkit/seo/cbt-for-fear-of-being-a-cocoon.html</loc>
+       <lastmod>2026-10-30</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8</priority>
+    </url>
 </urlset>
